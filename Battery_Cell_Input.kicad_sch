@@ -1,0 +1,1372 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "91d3dc75-ed07-49b7-b87e-582d42f8c36e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 139.446 25.146)
+		(end 162.306 43.434)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9d11c707-a916-456f-b506-d012ca7e2c70)
+	)
+	(rectangle
+		(start 139.446 58.166)
+		(end 162.306 76.454)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c45e0f45-d831-4f13-97fa-066a8021a70c)
+	)
+	(rectangle
+		(start 139.446 116.84)
+		(end 162.814 133.096)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d4dc848c-c2b4-46b5-ab0d-06d9586ba6b3)
+	)
+	(rectangle
+		(start 139.446 142.24)
+		(end 162.814 158.496)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f381363b-24d0-4998-9cbe-59043a9b6dd0)
+	)
+	(rectangle
+		(start 139.446 87.63)
+		(end 162.814 103.886)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f667e3b2-ff0f-418d-be50-e6d26d56919a)
+	)
+	(text "Batt heater"
+		(exclude_from_sim no)
+		(at 151.892 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "358202a6-5ebf-46af-b935-f26d3813825a")
+	)
+	(text "Temp Sens Charger"
+		(exclude_from_sim no)
+		(at 150.876 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "790fcf4f-f0e9-4c4c-afe7-611186f6a62a")
+	)
+	(text "Temp sens Conn"
+		(exclude_from_sim no)
+		(at 99.822 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b637e9f5-5a08-4fd9-adeb-5b33beb427ec")
+	)
+	(text "Temp Sens Batt"
+		(exclude_from_sim no)
+		(at 151.892 122.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd95629f-f47c-4560-a56f-1aecb0002647")
+	)
+	(text "Heater Conn"
+		(exclude_from_sim no)
+		(at 206.502 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d0be5889-ddef-4f41-a1bc-83a171635379")
+	)
+	(text "Temp sens Conn"
+		(exclude_from_sim no)
+		(at 99.822 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec899197-efd5-4d07-b039-58573c839964")
+	)
+	(text "Charger"
+		(exclude_from_sim no)
+		(at 151.638 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eddee0a3-85b2-41fe-a053-1f4851d6fd20")
+	)
+	(text "Charger"
+		(exclude_from_sim no)
+		(at 151.638 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee0fb632-dbdc-4c50-9129-b60433a61ada")
+	)
+	(text_box "Input for Battery cell with charger circuit\nchragers doubled for reduntancy\nTemperature measurement of the battery and chargers (may not be needed)\nHeater for maintaininig battery temperature"
+		(exclude_from_sim no)
+		(at 17.272 51.054 0)
+		(size 77.724 19.304)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7632aa4e-9aa3-4028-8a89-aa556a68e339")
+	)
+	(wire
+		(pts
+			(xy 162.56 95.25) (xy 181.61 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1dfad6-abd9-42cc-b178-162d5e83f4ca")
+	)
+	(wire
+		(pts
+			(xy 162.56 60.96) (xy 207.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225711dd-1237-4239-98d8-f1f25b545280")
+	)
+	(wire
+		(pts
+			(xy 162.56 40.64) (xy 207.01 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23904e7d-5744-4ee9-89b6-e35d775bee21")
+	)
+	(wire
+		(pts
+			(xy 104.14 149.86) (xy 139.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c436b9-9f0f-4b2a-81dc-78cf242c7a13")
+	)
+	(wire
+		(pts
+			(xy 104.14 95.25) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cf13eb-8649-4f90-a44d-dbe91864bf33")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602a3423-6353-40fe-9931-de3da2af3204")
+	)
+	(wire
+		(pts
+			(xy 162.56 27.94) (xy 207.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6e26a4-58c5-44a7-923f-0a875822c91c")
+	)
+	(wire
+		(pts
+			(xy 162.56 124.46) (xy 181.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b654a7-bd95-4275-bff6-5a235d372199")
+	)
+	(wire
+		(pts
+			(xy 162.56 71.12) (xy 207.01 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8619fdea-4c22-40a3-980a-aef31cc4dd38")
+	)
+	(wire
+		(pts
+			(xy 162.56 67.31) (xy 207.01 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96745398-e0a2-4b9d-9836-3231cceca735")
+	)
+	(wire
+		(pts
+			(xy 162.56 38.1) (xy 207.01 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6a8414-c576-47aa-8f03-27d435842de1")
+	)
+	(wire
+		(pts
+			(xy 102.87 34.29) (xy 139.7 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa0a386-a4a4-416a-b497-d1e67705af4d")
+	)
+	(wire
+		(pts
+			(xy 104.14 124.46) (xy 139.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7de78af-9124-4174-b5d1-721a08282503")
+	)
+	(wire
+		(pts
+			(xy 162.56 34.29) (xy 207.01 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad5c7a7-2340-4e04-ae80-16ce9699e5f8")
+	)
+	(wire
+		(pts
+			(xy 162.56 149.86) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc12683-7c32-42cc-810d-0c132cc68164")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 207.01 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f36e3c-8956-443a-947b-45be960672f1")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 26.416 25.654)
+		(row_heights 3.048 3.302 3.302 3.048 3.302 5.334)
+		(cells
+			(table_cell "Inputs"
+				(exclude_from_sim no)
+				(at 26.67 25.146 0)
+				(size 26.416 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "38e68188-8617-4371-9655-25e4112c82dc")
+			)
+			(table_cell "Outputs"
+				(exclude_from_sim no)
+				(at 53.086 25.146 0)
+				(size 25.654 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "139b844f-6ad4-414e-84a0-39e72ea10002")
+			)
+			(table_cell "Input voltage"
+				(exclude_from_sim no)
+				(at 26.67 28.194 0)
+				(size 26.416 3.302)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6af28cbd-435c-4453-acfb-54b24439eab9")
+			)
+			(table_cell "Ouput voltage"
+				(exclude_from_sim no)
+				(at 53.086 28.194 0)
+				(size 25.654 3.302)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3ceb0676-189c-46c2-8a28-0d93621a631f")
+			)
+			(table_cell "Heater Enable"
+				(exclude_from_sim no)
+				(at 26.67 31.496 0)
+				(size 26.416 3.302)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b500fa7c-0f65-4c3b-978b-b60e23da5f2e")
+			)
+			(table_cell "Measured voltage"
+				(exclude_from_sim no)
+				(at 53.086 31.496 0)
+				(size 25.654 3.302)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7911e5d9-3b98-4c2e-8853-932c1a1dd517")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 26.67 34.798 0)
+				(size 26.416 3.048)
+				(margins 1 0.9525 1 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9d5c0409-63a1-4057-899e-8403e93a621b")
+			)
+			(table_cell "Measured current"
+				(exclude_from_sim no)
+				(at 53.086 34.798 0)
+				(size 25.654 3.048)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "57cb0e78-0345-43e4-99c3-6b0033595104")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 26.67 37.846 0)
+				(size 26.416 3.302)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f186de10-58ba-431f-9c9e-557fc040ac7c")
+			)
+			(table_cell "Temperature of the Cell"
+				(exclude_from_sim no)
+				(at 53.086 37.846 0)
+				(size 25.654 3.302)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f5d93561-7110-4a0b-8a5d-bd67e3e2a593")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 26.67 41.148 0)
+				(size 26.416 5.334)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1deaae4a-6a5d-4226-9f58-4134ebda7cfe")
+			)
+			(table_cell "Temperature of the charger (not sure)"
+				(exclude_from_sim no)
+				(at 53.086 41.148 0)
+				(size 25.654 5.334)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9df97538-d4c3-45dc-9c63-50baf2e25e32")
+			)
+		)
+	)
+	(hierarchical_label "VMEAS"
+		(shape output)
+		(at 207.01 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1df393e1-e895-456d-b302-69fca7d149a7")
+	)
+	(hierarchical_label "Batt"
+		(shape bidirectional)
+		(at 207.01 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20526c42-5d77-467d-8891-d7edeaa3d71c")
+	)
+	(hierarchical_label "Batt"
+		(shape bidirectional)
+		(at 207.01 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dafc9be-e2e1-4d7a-8568-835539e46074")
+	)
+	(hierarchical_label "VOUT"
+		(shape output)
+		(at 207.01 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ebff8ec-ed01-49c0-abf8-eae612d02573")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 102.87 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c8ce80f-e032-425c-ac0b-210395c5d2bc")
+	)
+	(hierarchical_label "Heater_EN"
+		(shape input)
+		(at 104.14 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4df0ccc7-6c37-47f2-8798-8512bc15bd4e")
+	)
+	(hierarchical_label "VOUT"
+		(shape output)
+		(at 207.01 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c9e8136-22e3-44d9-adec-96bf922cf40a")
+	)
+	(hierarchical_label "TMEAS_BATT"
+		(shape output)
+		(at 181.61 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b868f8fb-a7a2-4cd7-bb55-c858f4f57934")
+	)
+	(hierarchical_label "VMEAS"
+		(shape output)
+		(at 207.01 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d873c5c8-2379-4ab1-a680-96799b3c440b")
+	)
+	(hierarchical_label "AMEAS"
+		(shape output)
+		(at 207.01 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da4f9757-13cb-405e-8ebe-3eb71e954396")
+	)
+	(hierarchical_label "TMEAS_CH"
+		(shape output)
+		(at 181.61 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9380950-986b-43d5-947c-19b9755181ed")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 102.87 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0141bc3-208b-4318-b8c4-e29d47e405d8")
+	)
+	(hierarchical_label "AMEAS"
+		(shape output)
+		(at 207.01 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fef77590-1518-4990-bc68-23f738975bed")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "025dcfe5-d43c-4a29-85d6-882f022a0acd")
+		(property "Reference" "#PWR0802"
+			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "261756d6-a08a-493e-991d-99033ce649ce")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
+					(reference "#PWR0802")
+					(unit 1)
+				)
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "#PWR01002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 205.74 152.4 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05bee562-c653-41c0-8b46-c6a4246621aa")
+		(property "Reference" "J803"
+			(at 205.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 205.74 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88e3e216-cfb5-44c4-a813-d24a2442bcd5")
+		)
+		(pin "1"
+			(uuid "bb589e21-ffc4-4252-8c2f-082c317b4822")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
+					(reference "J803")
+					(unit 1)
+				)
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "J1003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10148ec5-e183-45be-8108-9b29eedc76a7")
+		(property "Reference" "#PWR0801"
+			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "837cbc4f-ee58-40ca-9ab0-59c55596eb13")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
+					(reference "#PWR0801")
+					(unit 1)
+				)
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "#PWR01001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 99.06 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "559e2f20-6602-4581-a5c3-e6a7f77b9ad4")
+		(property "Reference" "J801"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d2938a5-731a-4c40-b9cc-76b8401899f6")
+		)
+		(pin "1"
+			(uuid "3900c498-e97b-4d3f-8620-81b44b576dbc")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
+					(reference "J801")
+					(unit 1)
+				)
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "J1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "768ba511-4065-40e9-b9c1-42378e13c4f9")
+		(property "Reference" "#PWR0803"
+			(at 200.66 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b83563cc-00ff-40be-bf64-7f31bc77d4a7")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
+					(reference "#PWR0803")
+					(unit 1)
+				)
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "#PWR01003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 99.06 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c929b385-d140-48df-b522-2c34fca29b8c")
+		(property "Reference" "J802"
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 99.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bcd3c06-19cb-46f4-ac21-6842f8963d33")
+		)
+		(pin "1"
+			(uuid "041f244d-5572-4ea2-8f02-a4ac24e1423c")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
+					(reference "J802")
+					(unit 1)
+				)
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "J1002")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

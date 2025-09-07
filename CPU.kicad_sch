@@ -1,0 +1,1095 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8006cc4d-1d55-4a21-9b61-e41506fc9ab8")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 36.068 75.184)
+		(end 59.436 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 31db566d-d9e8-4c12-86f0-6efccaf2c29e)
+	)
+	(text "Temp Sens"
+		(exclude_from_sim no)
+		(at 49.276 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9fbbf93e-2dab-4c13-9a31-44610af809ea")
+	)
+	(text_box "CPU, communitaction channels\nmaybe heater for maintaininig temperature?"
+		(exclude_from_sim no)
+		(at 25.654 48.768 0)
+		(size 41.402 19.304)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "010a1512-9318-489c-aeac-401b4b00c2e3")
+	)
+	(text_box "UART"
+		(exclude_from_sim no)
+		(at 176.022 25.4 0)
+		(size 24.13 18.542)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0acc93b8-a9a2-4535-8c16-385ff301be9f")
+	)
+	(text_box "CPU"
+		(exclude_from_sim no)
+		(at 108.204 94.996 0)
+		(size 44.45 85.09)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e5030f3-ed6c-48d0-9b05-b7d0ccc1c1a3")
+	)
+	(text_box "RS485"
+		(exclude_from_sim no)
+		(at 226.314 19.558 0)
+		(size 44.196 38.1)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "588bec26-c142-40e2-a01d-08c8e91ce513")
+	)
+	(text_box "I2C level shifter? "
+		(exclude_from_sim no)
+		(at 226.06 65.786 0)
+		(size 44.704 40.132)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67111389-7f14-4e38-966e-9194ec67bbd1")
+	)
+	(text_box "GPIO extender?"
+		(exclude_from_sim no)
+		(at 226.822 113.792 0)
+		(size 43.18 46.228)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb62d7ca-b23a-4e3b-ae5b-2ea7aedc6e56")
+	)
+	(text_box "CAN"
+		(exclude_from_sim no)
+		(at 177.038 77.724 0)
+		(size 23.368 16.51)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cadcd8b3-06c1-4f3b-ab28-13f8d80f18bc")
+	)
+	(bus
+		(pts
+			(xy 208.28 140.97) (xy 219.71 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015cb646-2924-4dbc-88b1-dbd0306c516d")
+	)
+	(wire
+		(pts
+			(xy 81.28 26.67) (xy 81.28 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2604bb3e-bdf2-485a-bb23-69b7d8f1fc35")
+	)
+	(wire
+		(pts
+			(xy 111.76 27.94) (xy 106.68 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3510e978-ed3c-454c-ac53-6f3929062afe")
+	)
+	(bus
+		(pts
+			(xy 208.28 135.89) (xy 219.71 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c711c80-b78c-430f-85e5-a02168d28176")
+	)
+	(wire
+		(pts
+			(xy 81.28 27.94) (xy 86.36 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d82aaf7-e1b9-4bbc-9c34-ef9623bdd910")
+	)
+	(bus
+		(pts
+			(xy 208.28 130.81) (xy 219.71 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11413ea-983d-441a-a257-6c63a5f3e7dd")
+	)
+	(wire
+		(pts
+			(xy 111.76 26.67) (xy 111.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17a21be-9ed4-4d76-868b-01302be30454")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 22.098 25.654)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "Inputs"
+				(exclude_from_sim no)
+				(at 22.606 22.86 0)
+				(size 22.098 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "38e68188-8617-4371-9655-25e4112c82dc")
+			)
+			(table_cell "Outputs"
+				(exclude_from_sim no)
+				(at 44.704 22.86 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "139b844f-6ad4-414e-84a0-39e72ea10002")
+			)
+			(table_cell "Measured values "
+				(exclude_from_sim no)
+				(at 22.606 25.4 0)
+				(size 22.098 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6af28cbd-435c-4453-acfb-54b24439eab9")
+			)
+			(table_cell "Switch enables"
+				(exclude_from_sim no)
+				(at 44.704 25.4 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3ceb0676-189c-46c2-8a28-0d93621a631f")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 22.606 27.94 0)
+				(size 22.098 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b500fa7c-0f65-4c3b-978b-b60e23da5f2e")
+			)
+			(table_cell "Channel enables"
+				(exclude_from_sim no)
+				(at 44.704 27.94 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7911e5d9-3b98-4c2e-8853-932c1a1dd517")
+			)
+			(table_cell "I2C"
+				(exclude_from_sim no)
+				(at 22.606 30.48 0)
+				(size 22.098 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9d5c0409-63a1-4057-899e-8403e93a621b")
+			)
+			(table_cell "I2C"
+				(exclude_from_sim no)
+				(at 44.704 30.48 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "57cb0e78-0345-43e4-99c3-6b0033595104")
+			)
+			(table_cell "RS482"
+				(exclude_from_sim no)
+				(at 22.606 33.02 0)
+				(size 22.098 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1deaae4a-6a5d-4226-9f58-4134ebda7cfe")
+			)
+			(table_cell "RS485"
+				(exclude_from_sim no)
+				(at 44.704 33.02 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9df97538-d4c3-45dc-9c63-50baf2e25e32")
+			)
+			(table_cell "CAN"
+				(exclude_from_sim no)
+				(at 22.606 35.56 0)
+				(size 22.098 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fc909ff6-61c5-4ca3-b693-d5486809e021")
+			)
+			(table_cell "CAN"
+				(exclude_from_sim no)
+				(at 44.704 35.56 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4bce9329-fffd-41da-a98a-0bde4b670c75")
+			)
+			(table_cell "UART for debug"
+				(exclude_from_sim no)
+				(at 22.606 38.1 0)
+				(size 22.098 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "10500693-170e-4edd-9013-0fb55d877efc")
+			)
+			(table_cell "UART for debug"
+				(exclude_from_sim no)
+				(at 44.704 38.1 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "89c7e47d-2913-47a2-b5f5-2a4f07f73799")
+			)
+		)
+	)
+	(label "{Enables}"
+		(at 209.55 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "146efd7e-630a-4cda-9a5d-867da1f53cca")
+	)
+	(label "{AMEAS}"
+		(at 209.55 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9577fab0-a823-4b72-a34a-6cca7fd41193")
+	)
+	(label "{TMEAS}"
+		(at 209.55 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c31ac0a4-3a11-43af-97e1-6af330587382")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 201.93 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fd8d0c6-9864-4583-b256-85b772cdc285")
+	)
+	(hierarchical_label "RS485_A"
+		(shape bidirectional)
+		(at 271.78 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "245054f0-05b5-4532-8089-6a7a0f99c3de")
+	)
+	(hierarchical_label "AMEAS"
+		(shape input)
+		(at 208.28 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c57124f-dd96-4de6-98cc-cbbe4e18fb48")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 273.05 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50d11a03-e93b-4964-b576-d254b487ed91")
+	)
+	(hierarchical_label "CAN_L"
+		(shape output)
+		(at 200.66 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60d468b4-ebff-41d3-8bff-a7f1af0a2314")
+	)
+	(hierarchical_label "TMEAS"
+		(shape input)
+		(at 208.28 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a29068c-97c3-45c5-a1c1-41bdb675f2b1")
+	)
+	(hierarchical_label "RS485_B"
+		(shape bidirectional)
+		(at 271.78 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae5021d9-6c51-4ff3-b74a-de49a13341be")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 201.93 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be6c778f-1457-4464-81c2-fe9669d05d69")
+	)
+	(hierarchical_label "Enables"
+		(shape output)
+		(at 208.28 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5d1e58d-3508-423c-a029-7a2e2b31ee40")
+	)
+	(hierarchical_label "CAN_H"
+		(shape output)
+		(at 200.66 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbe951d7-93e0-4b61-b27b-bece9ea656eb")
+	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 273.05 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e117c84f-026e-452c-9de2-e618a9f50037")
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 81.28 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b95bac5-a139-4edb-9106-05fad56725d4")
+		(property "Reference" "#PWR01901"
+			(at 81.28 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 81.28 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 81.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19a4ee32-53bc-4179-9762-4cdd0924963c")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/436fb79f-2d07-4207-b819-4d05a5fd951c"
+					(reference "#PWR01901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VD")
+		(at 111.76 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad8f7988-54c9-4b7e-821b-ab2f4a087d4a")
+		(property "Reference" "#PWR01902"
+			(at 111.76 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CPU_3V3"
+			(at 111.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VD\""
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d60cf3c4-40cd-4e3a-9695-be14338e96b2")
+		)
+		(instances
+			(project ""
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/436fb79f-2d07-4207-b819-4d05a5fd951c"
+					(reference "#PWR01902")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 24.384)
+		(size 20.32 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3a9e6b71-abd9-4b13-96f2-a718ee53b9c9")
+		(property "Sheetname" "LDO_3V3_1"
+			(at 86.36 23.6724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LDO_3V3.kicad_sch"
+			(at 86.36 40.2086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 86.36 27.94 180)
+			(uuid "e5f83455-649e-41e8-9c56-1b7b21e0a833")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" output
+			(at 106.68 27.94 0)
+			(uuid "0989a2e6-007f-44b1-9e1a-c4fd7572f7d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/436fb79f-2d07-4207-b819-4d05a5fd951c"
+					(page "28")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,187 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "75e8ad49-383f-45dc-820e-690d65da02b7")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 142.24 55.88)
+		(end 164.338 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1ab6f56e-8ec9-4e75-a4dd-69ef0da7d801)
+	)
+	(text "LDO"
+		(exclude_from_sim no)
+		(at 153.924 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e929bc4-c342-4163-bfbd-d2537140b0e0")
+	)
+	(text_box ">1A output"
+		(exclude_from_sim no)
+		(at 26.162 47.244 0)
+		(size 37.846 16.256)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "478602e5-9327-411a-93e8-cdcbaa957888")
+	)
+	(wire
+		(pts
+			(xy 102.87 66.04) (xy 142.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b5a166-3a97-41ab-aa14-588c74f24bc4")
+	)
+	(wire
+		(pts
+			(xy 165.1 66.04) (xy 199.39 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6d8c07-7967-4624-b673-29103686d7a8")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 22.098 25.654)
+		(row_heights 2.54 2.54)
+		(cells
+			(table_cell "Inputs"
+				(exclude_from_sim no)
+				(at 25.908 27.178 0)
+				(size 22.098 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "38e68188-8617-4371-9655-25e4112c82dc")
+			)
+			(table_cell "Outputs"
+				(exclude_from_sim no)
+				(at 48.006 27.178 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "139b844f-6ad4-414e-84a0-39e72ea10002")
+			)
+			(table_cell "BATT Voltage"
+				(exclude_from_sim no)
+				(at 25.908 29.718 0)
+				(size 22.098 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6af28cbd-435c-4453-acfb-54b24439eab9")
+			)
+			(table_cell "3V3"
+				(exclude_from_sim no)
+				(at 48.006 29.718 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3ceb0676-189c-46c2-8a28-0d93621a631f")
+			)
+		)
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 102.87 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1410754c-22ca-48f1-bb42-79a3dc1ea7be")
+	)
+	(hierarchical_label "VOUT"
+		(shape output)
+		(at 199.39 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7cff5c2-8571-49f2-ba92-d7731eb94b47")
+	)
+)

@@ -1,0 +1,349 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e5e786cc-8010-4aa2-a046-7c13e0e3c153")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 138.176 87.122)
+		(end 159.766 111.252)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e314265-1a3c-4ec1-8230-3938b9f4e7ad)
+	)
+	(rectangle
+		(start 138.176 52.832)
+		(end 159.766 76.962)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4aef5d7b-c957-4783-9ba6-3aac0f4835d0)
+	)
+	(text "Switch"
+		(exclude_from_sim no)
+		(at 149.86 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a43c785-8ad2-495e-a497-d448f639d0c9")
+	)
+	(text "Switch"
+		(exclude_from_sim no)
+		(at 149.86 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e45906a8-84a1-449a-b039-83eb7d4cbd4b")
+	)
+	(text_box "Generic Switch\nDoubled for redundance"
+		(exclude_from_sim no)
+		(at 30.226 51.308 0)
+		(size 35.306 15.494)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3d44fce3-edb4-46ce-b87e-c892be7d7b08")
+	)
+	(wire
+		(pts
+			(xy 92.71 109.22) (xy 138.43 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f498ad1-703f-41d3-92b1-0b9251211aad")
+	)
+	(wire
+		(pts
+			(xy 160.02 58.42) (xy 201.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b780ff-f4a4-4e64-8148-f72c17946cfd")
+	)
+	(wire
+		(pts
+			(xy 92.71 58.42) (xy 138.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a97363-22cc-471a-a26d-c0f6add33790")
+	)
+	(wire
+		(pts
+			(xy 160.02 92.71) (xy 201.93 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dab0cb1-6556-4950-be0f-f698b729b00d")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf363f8-17fd-4a3c-a0a4-080607dd89e6")
+	)
+	(wire
+		(pts
+			(xy 92.71 74.93) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4534aa5-226a-4ada-af00-310411c6f0ca")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 26.416 25.654)
+		(row_heights 2.54 2.54 2.54)
+		(cells
+			(table_cell "Inputs"
+				(exclude_from_sim no)
+				(at 32.512 32.766 0)
+				(size 26.416 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "38e68188-8617-4371-9655-25e4112c82dc")
+			)
+			(table_cell "Outputs"
+				(exclude_from_sim no)
+				(at 58.928 32.766 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "139b844f-6ad4-414e-84a0-39e72ea10002")
+			)
+			(table_cell "Input voltage"
+				(exclude_from_sim no)
+				(at 32.512 35.306 0)
+				(size 26.416 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6af28cbd-435c-4453-acfb-54b24439eab9")
+			)
+			(table_cell "Output voltage"
+				(exclude_from_sim no)
+				(at 58.928 35.306 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3ceb0676-189c-46c2-8a28-0d93621a631f")
+			)
+			(table_cell "Input from CPU"
+				(exclude_from_sim no)
+				(at 32.512 37.846 0)
+				(size 26.416 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b500fa7c-0f65-4c3b-978b-b60e23da5f2e")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 58.928 37.846 0)
+				(size 25.654 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7911e5d9-3b98-4c2e-8853-932c1a1dd517")
+			)
+		)
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 92.71 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "068c6507-e970-4a6c-9403-835dc34117ab")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 92.71 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a7e81de-ad42-4d16-bfbd-d3b5023bdd69")
+	)
+	(hierarchical_label "VMEAS"
+		(shape output)
+		(at 201.93 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cf24ec3-c84d-49d8-a7ab-296a4e177a6a")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 92.71 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77386ab1-d9ec-488b-aed2-fd8314b8905f")
+	)
+	(hierarchical_label "VOUT"
+		(shape output)
+		(at 201.93 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "837a80f1-710d-447c-88df-75c45985a779")
+	)
+	(hierarchical_label "VOUT"
+		(shape output)
+		(at 201.93 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b005122f-39ab-43de-8a06-3a3f1e88c7f9")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 92.71 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd4b00b2-f672-486c-8cc1-854dc90add33")
+	)
+	(hierarchical_label "AMEAS"
+		(shape output)
+		(at 201.93 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec58e05e-01df-4407-88bf-c408e8979351")
+	)
+)
