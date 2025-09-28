@@ -6,6 +6,18 @@
 	(paper "A4")
 	(lib_symbols)
 	(rectangle
+		(start 147.32 109.22)
+		(end 170.18 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2ca8e1f0-b701-4201-86cd-19a2b6696086)
+	)
+	(rectangle
 		(start 147.32 86.36)
 		(end 170.18 104.14)
 		(stroke
@@ -19,6 +31,16 @@
 	)
 	(text "LDO"
 		(exclude_from_sim no)
+		(at 159.004 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e5b8e3b-f756-4dff-acb4-7e3b522f3905")
+	)
+	(text "LDO"
+		(exclude_from_sim no)
 		(at 159.004 95.504 0)
 		(effects
 			(font
@@ -26,6 +48,29 @@
 			)
 		)
 		(uuid "aaacd250-9cdc-4930-bc2d-9e2c831815ab")
+	)
+	(text_box "Ouput current needed?"
+		(exclude_from_sim no)
+		(at 30.226 46.736 0)
+		(size 40.894 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+				(color 255 0 19 1)
+			)
+			(justify left top)
+		)
+		(uuid "53f506ab-25a6-4e70-9b9a-993d30b70399")
 	)
 	(wire
 		(pts
@@ -46,6 +91,26 @@
 			(type default)
 		)
 		(uuid "bdcaaf31-490f-4f25-9a35-fae6c5f59296")
+	)
+	(wire
+		(pts
+			(xy 170.18 119.38) (xy 204.47 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e3a103-2617-4a81-8308-0f008d8356bd")
+	)
+	(wire
+		(pts
+			(xy 107.95 119.38) (xy 147.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3915b37-f278-4587-beea-4df2817cd000")
 	)
 	(table
 		(column_count 2)
@@ -152,6 +217,28 @@
 			(justify left)
 		)
 		(uuid "766f527a-62f2-431b-b2d9-0e37e95f4e90")
+	)
+	(hierarchical_label "VOUT"
+		(shape output)
+		(at 204.47 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c3c77a4-fdeb-4a80-83dc-2150d08c8f4b")
+	)
+	(hierarchical_label "VIN"
+		(shape input)
+		(at 107.95 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e86ee53a-75fd-4f6b-89e0-31ab6372395d")
 	)
 	(hierarchical_label "VIN"
 		(shape input)

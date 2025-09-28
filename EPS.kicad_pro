@@ -560,12 +560,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -651,7 +675,7 @@
       "Battery_Cell_Input_2"
     ],
     [
-      "d5ed2a0e-6190-4f22-adb1-fdcca25ef785",
+      "9f7b8494-29c5-4f2d-87a5-ee977c2b5c75",
       "LDO_3V3_1"
     ],
     [
@@ -659,24 +683,24 @@
       "Switch_BUS_1"
     ],
     [
-      "8daf3567-35f6-4d6b-b946-5a75dbfe0291",
+      "3ee91052-1c16-4bee-95e9-e897e48d51ee",
       "LDO_3V3_2"
     ],
     [
-      "8832e545-6e97-440b-8aec-329bdd498469",
-      "LDO_3V3_3"
-    ],
-    [
-      "01e76273-16f1-4e62-8551-55b9bf482182",
-      "LDO_5V_1"
-    ],
-    [
-      "5a0e2460-e24f-41d6-9b4d-f63f9c63b897",
+      "7dca1ddc-47e5-467e-b56d-f1abb55d5fad",
       "LDO_5V_2"
     ],
     [
-      "b439c681-d625-4a10-ae23-2e461fcc0317",
+      "e4b69f69-591c-47a2-91d2-519d49e82308",
       "LDO_5V_3"
+    ],
+    [
+      "b9c4c248-9969-4651-9ceb-f44394a9fa43",
+      "LDO_3V3_3"
+    ],
+    [
+      "51278740-2f41-425b-bd9a-8ab184fcbeaa",
+      "LDO_3V3_4"
     ],
     [
       "e512d9dc-a68a-4186-afb6-6ae902db4d6f",
@@ -699,6 +723,10 @@
       "Switch_CH_3V3_2"
     ],
     [
+      "83ea9799-bf32-489a-acb8-277613aae7e6",
+      "LDO_5V_1"
+    ],
+    [
       "33271275-7561-4701-97c0-b05509e38121",
       "Switch_CH_5V_2"
     ],
@@ -707,20 +735,12 @@
       "Switch_CH_3V3_1"
     ],
     [
-      "a25c0c5d-2b35-405b-a68e-d9be0fae3bf6",
-      "Power_Conditioning"
-    ],
-    [
-      "863af98d-ad9c-4390-86ef-400baea828df",
-      "Switch_CH_3V3_4"
+      "bdd6aa8c-d27f-4b1c-b1bc-21ecb06c2fee",
+      "LDO_5V_4"
     ],
     [
       "f28c9453-b40b-47b0-a16f-35a46ae26054",
       "Switch_CH_3V3_5"
-    ],
-    [
-      "23e96565-446c-4b6d-a589-23a05ac23ada",
-      "Switch_CH_3V3_6"
     ],
     [
       "3a9e6b71-abd9-4b13-96f2-a718ee53b9c9",
