@@ -2426,6 +2426,12 @@
 		(uuid "0126f3fd-03fa-4de0-88f7-b3410d0e71e0")
 	)
 	(junction
+		(at 175.26 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "319dabf0-3ac1-4e4a-9420-9014fcac22e5")
+	)
+	(junction
 		(at 149.86 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2460,12 +2466,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8c2e8d7-6dda-4e9a-b517-5428e3519f52")
-	)
-	(junction
-		(at 175.26 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7cd138c-83ce-468a-9cc4-d52dbd269234")
 	)
 	(junction
 		(at 91.44 59.69)
@@ -2666,7 +2666,7 @@
 		(uuid "8fb77808-621d-4224-8f09-76c9ada91feb")
 	)
 	(bus_entry
-		(at 177.8 68.58)
+		(at 176.53 46.99)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2711,7 +2711,7 @@
 		(uuid "b6f0b69e-d3ce-4f7a-a735-dece36df9c3a")
 	)
 	(bus_entry
-		(at 214.63 71.12)
+		(at 213.36 49.53)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2763,16 +2763,6 @@
 			(type default)
 		)
 		(uuid "f8492834-7098-4333-8a3d-7c2aea9877ae")
-	)
-	(wire
-		(pts
-			(xy 175.26 58.42) (xy 175.26 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0692512c-3bdd-4a14-b522-dd135547513d")
 	)
 	(wire
 		(pts
@@ -3124,6 +3114,16 @@
 		)
 		(uuid "5ce9b1c8-26d3-4f77-b70e-a8a842078281")
 	)
+	(wire
+		(pts
+			(xy 175.26 36.83) (xy 175.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec2edcd-2ca5-4ed2-80c0-e914d160913b")
+	)
 	(bus
 		(pts
 			(xy 203.2 82.55) (xy 218.44 82.55)
@@ -3196,6 +3196,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 36.83) (xy 175.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7f6e0f-d4ed-4471-bf9a-3ebba01d0c7c")
+	)
+	(wire
+		(pts
 			(xy 205.74 113.03) (xy 226.06 113.03)
 		)
 		(stroke
@@ -3206,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 58.42) (xy 205.74 25.4)
+			(xy 205.74 36.83) (xy 205.74 25.4)
 		)
 		(stroke
 			(width 0.5)
@@ -3226,7 +3236,7 @@
 	)
 	(bus
 		(pts
-			(xy 207.01 71.12) (xy 214.63 71.12)
+			(xy 205.74 49.53) (xy 213.36 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3246,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 68.58) (xy 203.2 68.58)
+			(xy 215.9 46.99) (xy 201.93 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3276,7 +3286,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 58.42) (xy 203.2 58.42)
+			(xy 205.74 36.83) (xy 201.93 36.83)
 		)
 		(stroke
 			(width 0.5)
@@ -3466,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 58.42) (xy 190.5 58.42)
+			(xy 175.26 36.83) (xy 189.23 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3616,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 68.58) (xy 190.5 68.58)
+			(xy 176.53 46.99) (xy 189.23 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3866,7 +3876,7 @@
 	)
 	(bus
 		(pts
-			(xy 180.34 71.12) (xy 189.23 71.12)
+			(xy 179.07 49.53) (xy 187.96 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3893,16 +3903,6 @@
 			(type default)
 		)
 		(uuid "f019c1b7-9f5d-4ce3-9255-87db92e36c7a")
-	)
-	(wire
-		(pts
-			(xy 175.26 58.42) (xy 175.26 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f05b62de-9640-4d90-a04e-4eee02fbc33e")
 	)
 	(wire
 		(pts
@@ -6276,7 +6276,7 @@
 		(uuid "1328eb95-8094-4748-848c-5500b4af246b")
 	)
 	(label "SW_BATT_1"
-		(at 177.8 68.58 0)
+		(at 176.53 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6336,7 +6336,7 @@
 		(uuid "1b6286a6-9620-4b8b-bad5-a7115afd3db3")
 	)
 	(label "{Enables}"
-		(at 180.34 71.12 0)
+		(at 179.07 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6446,7 +6446,7 @@
 		(uuid "34ed12cd-96ff-403b-88db-18bca22c45c8")
 	)
 	(label "AMEAS_BATT"
-		(at 217.17 68.58 180)
+		(at 215.9 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6706,7 +6706,7 @@
 		(uuid "abaa46c4-df96-4dd3-8e9f-c92c48065658")
 	)
 	(label "{AMEAS}"
-		(at 214.63 71.12 180)
+		(at 213.36 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8261,7 +8261,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 55.88)
+		(at 189.23 34.29)
 		(size 12.7 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8277,7 +8277,7 @@
 		)
 		(uuid "6b37ea2b-dc48-4e51-82f0-4bf93fd560dd")
 		(property "Sheetname" "Switch_BATT_1"
-			(at 190.5 55.1684 0)
+			(at 189.23 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8286,7 @@
 			)
 		)
 		(property "Sheetfile" "Switch.kicad_sch"
-			(at 190.5 71.7046 0)
+			(at 189.23 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8296,7 +8296,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 190.5 68.58 180)
+			(at 189.23 46.99 180)
 			(uuid "106baa64-3d26-4e43-8a5a-20fa9c1e1783")
 			(effects
 				(font
@@ -8306,7 +8306,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 190.5 58.42 180)
+			(at 189.23 36.83 180)
 			(uuid "d0a87750-b82e-4d0d-a4e5-33279930f6da")
 			(effects
 				(font
@@ -8316,7 +8316,7 @@
 			)
 		)
 		(pin "VOUT" output
-			(at 203.2 58.42 0)
+			(at 201.93 36.83 0)
 			(uuid "c8daa1ca-d5eb-47ed-af55-664d1eea2bfe")
 			(effects
 				(font
@@ -8326,7 +8326,7 @@
 			)
 		)
 		(pin "AMEAS" output
-			(at 203.2 68.58 0)
+			(at 201.93 46.99 0)
 			(uuid "4264f37f-98df-4497-aa12-914629003b1f")
 			(effects
 				(font
