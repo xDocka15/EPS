@@ -6464,8 +6464,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 163.83 74.93 270)
-		(mirror x)
+		(at 163.83 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6473,7 +6472,7 @@
 		(dnp no)
 		(uuid "f42d3f9b-e54f-4125-ab85-79b3d5fe7e12")
 		(property "Reference" "Q302"
-			(at 160.782 65.786 90)
+			(at 166.878 65.786 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +6481,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 160.782 68.326 90)
+			(at 166.878 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6490,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 166.37 69.85 0)
+			(at 161.29 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +6499,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 151.13 74.93 0)
+			(at 176.53 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +6517,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 146.685 74.93 0)
+			(at 180.975 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6526,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 144.78 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6536,7 +6535,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 148.59 74.93 0)
+			(at 179.07 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

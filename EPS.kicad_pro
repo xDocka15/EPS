@@ -819,13 +819,13 @@
         "ANALOG"
       ],
       "/PV_1": [
-        "BUS"
+        "Channel"
       ],
       "/PV_2": [
-        "BUS"
+        "Channel"
       ],
       "/PV_3": [
-        "BUS"
+        "Channel"
       ],
       "/SOL_TGGL_1": [
         "DIGITAL"
@@ -898,6 +898,12 @@
       ],
       "/{VMEAS}": [
         "ANALOG"
+      ],
+      "SCL": [
+        "I2C"
+      ],
+      "SDA": [
+        "I2C"
       ]
     },
     "netclass_patterns": [

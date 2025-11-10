@@ -2404,8 +2404,16 @@
 		(uuid "69adeb93-fa2f-4bc7-b0fa-9dc1840dd570")
 	)
 	(no_connect
+		(at 175.26 113.03)
+		(uuid "c2737529-9b47-437d-be58-aefa9a05af05")
+	)
+	(no_connect
 		(at 175.26 128.27)
 		(uuid "dd2ba44b-3e27-4f8a-8308-d9a02c5905c7")
+	)
+	(no_connect
+		(at 175.26 123.19)
+		(uuid "eca6119c-c533-4a0c-8f9a-18be1ac2d4f1")
 	)
 	(no_connect
 		(at 58.42 173.99)
@@ -3731,6 +3739,70 @@
 			(justify left bottom)
 		)
 		(uuid "f7e87f44-3f19-4196-a025-ea946765f2b1")
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 175.26 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae3989b3-24ca-4c14-9631-d61c9f7e31a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.7067 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "I2C"
+			(at 175.26 107.6008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 175.26 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e68c858c-f6a8-49f1-a39e-3ffbb495b070")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.7672 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "I2C"
+			(at 175.26 110.1408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "VMEAS"
 		(shape output)
