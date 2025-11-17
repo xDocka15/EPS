@@ -507,7 +507,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -525,7 +524,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -543,7 +541,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -561,7 +558,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -579,7 +575,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -597,7 +592,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -615,7 +609,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -684,6 +677,15 @@
         "ANALOG"
       ],
       "/AMEAS_SOL_3": [
+        "ANALOG"
+      ],
+      "/AMEAS_SOL_4": [
+        "ANALOG"
+      ],
+      "/AMEAS_SOL_5": [
+        "ANALOG"
+      ],
+      "/AMEAS_SOL_6": [
         "ANALOG"
       ],
       "/BATT": [
@@ -803,12 +805,6 @@
       "/Interface/SCK": [
         "UART/SPI"
       ],
-      "/Interface/SCL": [
-        "I2C"
-      ],
-      "/Interface/SDA": [
-        "I2C"
-      ],
       "/Interface/TX": [
         "UART/SPI"
       ],
@@ -818,6 +814,15 @@
       "/MCU/ADC_2": [
         "ANALOG"
       ],
+      "/MCU/PV_4": [
+        "Channel"
+      ],
+      "/MCU/PV_5": [
+        "Channel"
+      ],
+      "/MCU/PV_6": [
+        "Channel"
+      ],
       "/PV_1": [
         "Channel"
       ],
@@ -825,6 +830,15 @@
         "Channel"
       ],
       "/PV_3": [
+        "Channel"
+      ],
+      "/PV_4": [
+        "Channel"
+      ],
+      "/PV_5": [
+        "Channel"
+      ],
+      "/PV_6": [
         "Channel"
       ],
       "/SOL_TGGL_1": [
@@ -869,6 +883,15 @@
       "/TMEAS_SOL_3": [
         "ANALOG"
       ],
+      "/TMEAS_SOL_4": [
+        "ANALOG"
+      ],
+      "/TMEAS_SOL_5": [
+        "ANALOG"
+      ],
+      "/TMEAS_SOL_6": [
+        "ANALOG"
+      ],
       "/VMEAS_BATT_1": [
         "ANALOG"
       ],
@@ -882,6 +905,12 @@
         "ANALOG"
       ],
       "/VMEAS_SOL_3": [
+        "ANALOG"
+      ],
+      "/VMEAS_SOL_5": [
+        "ANALOG"
+      ],
+      "/VMEAS_SOL_6": [
         "ANALOG"
       ],
       "/{AMEAS}": [
@@ -1322,6 +1351,14 @@
       "Temp_sens_battery"
     ],
     [
+      "4e89c933-7889-465d-8e1a-713a5947b2aa",
+      "Solar_input_4"
+    ],
+    [
+      "50b5827b-91e2-4f95-b489-8fc588047e5c",
+      "Switch_SOL_1"
+    ],
+    [
       "594e15f8-4e85-4fe0-b465-2b21bea5b847",
       "Switch_Batt_Heater"
     ],
@@ -1366,6 +1403,10 @@
       "Switch_element"
     ],
     [
+      "0a72ef8b-fc17-4425-a2e0-5d8a2bc4ee62",
+      "Switch_element"
+    ],
+    [
       "ae1af100-7f3c-40c3-a021-bf113af5017f",
       "5V_DCDC_6"
     ],
@@ -1382,6 +1423,10 @@
       "Switch_element"
     ],
     [
+      "1752a2e4-b640-4d77-8b16-7b89e71f5920",
+      "Temp_sens_solar_cell"
+    ],
+    [
       "ed1b52de-1586-4952-9fbf-5a3b2382d510",
       "5V_DCDC_5"
     ],
@@ -1391,6 +1436,14 @@
     ],
     [
       "508fc56f-a02d-42ca-801d-9d175147305c",
+      "Switch_element"
+    ],
+    [
+      "b7b15344-d852-4d94-8b9c-7ad6d1607b83",
+      "Switch_SOL_2"
+    ],
+    [
+      "0a72ef8b-fc17-4425-a2e0-5d8a2bc4ee62",
       "Switch_element"
     ],
     [
@@ -1420,6 +1473,10 @@
     [
       "508fc56f-a02d-42ca-801d-9d175147305c",
       "Switch_element"
+    ],
+    [
+      "cfc4b703-44df-4518-ae41-36cc43a226e9",
+      "Solar_input_5"
     ],
     [
       "b3dc2a64-17e9-4c7d-b928-739de4cb6d1d",
@@ -1480,6 +1537,50 @@
     [
       "39c4dccb-a5d4-418d-883f-0246335186c8",
       "12V_DCDC_1"
+    ],
+    [
+      "50b5827b-91e2-4f95-b489-8fc588047e5c",
+      "Switch_SOL_1"
+    ],
+    [
+      "0a72ef8b-fc17-4425-a2e0-5d8a2bc4ee62",
+      "Switch_element"
+    ],
+    [
+      "1752a2e4-b640-4d77-8b16-7b89e71f5920",
+      "Temp_sens_solar_cell"
+    ],
+    [
+      "b7b15344-d852-4d94-8b9c-7ad6d1607b83",
+      "Switch_SOL_2"
+    ],
+    [
+      "0a72ef8b-fc17-4425-a2e0-5d8a2bc4ee62",
+      "Switch_element"
+    ],
+    [
+      "d31c76f0-06ec-4dd4-b64f-0900d628aaef",
+      "Solar_input_6"
+    ],
+    [
+      "50b5827b-91e2-4f95-b489-8fc588047e5c",
+      "Switch_SOL_1"
+    ],
+    [
+      "0a72ef8b-fc17-4425-a2e0-5d8a2bc4ee62",
+      "Switch_element"
+    ],
+    [
+      "1752a2e4-b640-4d77-8b16-7b89e71f5920",
+      "Temp_sens_solar_cell"
+    ],
+    [
+      "b7b15344-d852-4d94-8b9c-7ad6d1607b83",
+      "Switch_SOL_2"
+    ],
+    [
+      "0a72ef8b-fc17-4425-a2e0-5d8a2bc4ee62",
+      "Switch_element"
     ],
     [
       "1752a2e4-b640-4d77-8b16-7b89e71f5920",
