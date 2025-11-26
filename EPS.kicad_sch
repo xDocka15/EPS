@@ -1274,7 +1274,7 @@
 		)
 		(uuid "49e00819-5def-4264-a221-1382e78cc662")
 	)
-	(text_box "upřesnit\nzvolit VBUS - Battery setup 4S? max 14-17V\nreseni MPPT - ted: rizeno z MCU, umoznit v designu moznost vymeny (2nd story nebo pajeny pcb modul)\nje potřeba balancer na batt? - udelat ho optional, zmerit, zkusit\n\n3V3 1.5A	5W\n5V 3A		15W\n12V 4A		50W\n\nChannels	each	all		amps\n8x 5V 3A	15W		120W	24\n2x 12V 4A	48W		96W		8\n					216W	32\n\n12V DCDC \n<90% ucinnost \nvelke ztraty pri vykonu\nZvolit unregulated motor ktery bude napajen primo z VBUS"
+	(text_box "upřesnit\nzvolit VBUS - Battery setup 4S? max 14-17V\nreseni MPPT - ted: rizeno z MCU, umoznit v designu moznost vymeny (2nd story nebo pajeny pcb modul)\nje potřeba balancer na batt? - udelat ho optional, zmerit, zkusit\nsepsat adresy vsech i2c zarizeni\nzjistit stavy v resetu\n\n3V3 1.5A	5W\n5V 3A		15W\n12V 4A		50W\n\nChannels	each	all		amps\n8x 5V 3A	15W		120W	24\n2x 12V 4A	48W		96W		8\n					216W	32\n\n12V DCDC \n<90% ucinnost \nvelke ztraty pri vykonu\nZvolit unregulated motor ktery bude napajen primo z VBUS"
 		(exclude_from_sim no)
 		(at 309.372 11.176 0)
 		(size 262.128 134.112)
