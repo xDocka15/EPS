@@ -3161,6 +3161,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 95.25) (xy 208.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f6ae9a-9987-4433-9ea8-efa83b0be92e")
+	)
+	(wire
+		(pts
 			(xy 85.09 163.83) (xy 86.36 163.83)
 		)
 		(stroke
@@ -4670,7 +4680,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 99.06 0)
+		(at 208.28 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4679,7 +4689,7 @@
 		(fields_autoplaced yes)
 		(uuid "44021fc8-13ae-443e-8e29-ef0a82e67fd6")
 		(property "Reference" "#PWR01107"
-			(at 208.28 105.41 0)
+			(at 208.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4698,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 104.14 0)
+			(at 208.28 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 99.06 0)
+			(at 208.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4705,7 +4715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 99.06 0)
+			(at 208.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +4724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 99.06 0)
+			(at 208.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4750,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 208.28 96.52 0)
+		(at 208.28 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4749,7 +4759,7 @@
 		(fields_autoplaced yes)
 		(uuid "46ed70b2-4fae-4e5f-a658-885d43a85368")
 		(property "Reference" "C1101"
-			(at 210.82 95.2562 0)
+			(at 210.82 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,7 +4768,7 @@
 			)
 		)
 		(property "Value" "C_Small"
-			(at 210.82 97.7962 0)
+			(at 210.82 99.0662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4777,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 208.28 96.52 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 96.52 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4795,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 208.28 96.52 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
