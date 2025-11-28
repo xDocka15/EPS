@@ -814,14 +814,17 @@
       "/MCU/ADC_2": [
         "ANALOG"
       ],
-      "/MCU/PV_4": [
-        "Channel"
+      "/MCU/RS422_485/C422_AB_N": [
+        "DIGITAL"
       ],
-      "/MCU/PV_5": [
-        "Channel"
+      "/MCU/RS422_485/C422_AB_P": [
+        "DIGITAL"
       ],
-      "/MCU/PV_6": [
-        "Channel"
+      "/MCU/RS422_485/C422_YZ_N": [
+        "DIGITAL"
+      ],
+      "/MCU/RS422_485/C422_YZ_P": [
+        "DIGITAL"
       ],
       "/PV_1": [
         "Channel"
@@ -982,6 +985,14 @@
       {
         "netclass": "UART/SPI",
         "pattern": "RX"
+      },
+      {
+        "netclass": "UART/SPI",
+        "pattern": "TxD"
+      },
+      {
+        "netclass": "UART/SPI",
+        "pattern": "RxD"
       }
     ]
   },
@@ -1283,7 +1294,7 @@
     ],
     [
       "dd2c750e-def6-42fd-86ab-835d368529b5",
-      "Switch_CH_O_7"
+      "Switch_CH_9"
     ],
     [
       "7dca1ddc-47e5-467e-b56d-f1abb55d5fad",
@@ -1291,6 +1302,10 @@
     ],
     [
       "e4b69f69-591c-47a2-91d2-519d49e82308",
+      "5V_DCDC_1"
+    ],
+    [
+      "d761fd80-437c-4900-b0a3-983ae2b927e8",
       "5V_DCDC_1"
     ],
     [
@@ -1311,7 +1326,11 @@
     ],
     [
       "bd8c69bd-d91d-4583-9982-b77bd13f9b29",
-      "Switch_H1"
+      "Switch_CH_7"
+    ],
+    [
+      "d761fd80-437c-4900-b0a3-983ae2b927e8",
+      "5V_DCDC_1"
     ],
     [
       "83ea9799-bf32-489a-acb8-277613aae7e6",
@@ -1319,7 +1338,7 @@
     ],
     [
       "8c53dc13-be93-4284-a23f-1625eb6681cf",
-      "Switch_CH_O_8"
+      "Switch_CH_10"
     ],
     [
       "bdd6aa8c-d27f-4b1c-b1bc-21ecb06c2fee",
@@ -1379,7 +1398,7 @@
     ],
     [
       "9671229e-fdfa-4b19-b847-02c627725d01",
-      "Switch_CH_O_1"
+      "Switch_CH_1"
     ],
     [
       "508fc56f-a02d-42ca-801d-9d175147305c",
@@ -1387,7 +1406,7 @@
     ],
     [
       "4f021f1d-bda8-4e33-8695-9d319bdd93ab",
-      "Switch_CH_O_2"
+      "Switch_CH_2"
     ],
     [
       "508fc56f-a02d-42ca-801d-9d175147305c",
@@ -1407,11 +1426,11 @@
     ],
     [
       "2ce2f176-9fe8-4061-8c39-1923e057ed0c",
-      "Switch_CH_O_6"
+      "Switch_CH_6"
     ],
     [
       "2f976210-1750-43d6-9de2-2df7b908e425",
-      "Switch_H2"
+      "Switch_CH_8"
     ],
     [
       "508fc56f-a02d-42ca-801d-9d175147305c",
@@ -1427,7 +1446,7 @@
     ],
     [
       "8713cb3d-d236-4b25-b8f7-c3a74cdfa63c",
-      "Switch_CH_O_5"
+      "Switch_CH_5"
     ],
     [
       "508fc56f-a02d-42ca-801d-9d175147305c",
@@ -1451,7 +1470,7 @@
     ],
     [
       "18317d81-3057-4f2d-8dd0-207e3d519bfa",
-      "Switch_CH_O_3"
+      "Switch_CH_3"
     ],
     [
       "508fc56f-a02d-42ca-801d-9d175147305c",
@@ -1459,7 +1478,7 @@
     ],
     [
       "a0428678-92cf-415e-aa00-fdfb19916946",
-      "Switch_CH_O_4"
+      "Switch_CH_4"
     ],
     [
       "508fc56f-a02d-42ca-801d-9d175147305c",
@@ -1526,6 +1545,10 @@
       "Switch_element"
     ],
     [
+      "d761fd80-437c-4900-b0a3-983ae2b927e8",
+      "5V_DCDC_1"
+    ],
+    [
       "50b5827b-91e2-4f95-b489-8fc588047e5c",
       "Switch_SOL_1"
     ],
@@ -1570,8 +1593,20 @@
       "Switch_element"
     ],
     [
+      "d761fd80-437c-4900-b0a3-983ae2b927e8",
+      "5V_DCDC_1"
+    ],
+    [
       "d6499537-8df6-4a5a-92df-5b43e72050a8",
       "RS422_485"
+    ],
+    [
+      "d761fd80-437c-4900-b0a3-983ae2b927e8",
+      "5V_DCDC_1"
+    ],
+    [
+      "d761fd80-437c-4900-b0a3-983ae2b927e8",
+      "5V_DCDC_1"
     ],
     [
       "1752a2e4-b640-4d77-8b16-7b89e71f5920",
