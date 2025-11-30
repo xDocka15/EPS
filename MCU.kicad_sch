@@ -7544,6 +7544,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 87.63) (xy 34.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60b3197-579c-4f3f-b006-8034afe1f544")
+	)
+	(wire
+		(pts
 			(xy -128.27 72.39) (xy -113.03 72.39)
 		)
 		(stroke
@@ -7581,6 +7591,16 @@
 			(type default)
 		)
 		(uuid "d89ae6ed-77d4-451a-b057-e9acdefe2bef")
+	)
+	(wire
+		(pts
+			(xy 38.1 86.36) (xy 38.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d908c66d-280d-4fed-bd8d-17bbf62ba204")
 	)
 	(wire
 		(pts
@@ -7744,7 +7764,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 87.63) (xy 49.53 90.17)
+			(xy 49.53 86.36) (xy 49.53 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7881,16 +7901,6 @@
 			(type default)
 		)
 		(uuid "eb285fd5-e9e5-4bf9-a964-701f1b163ef8")
-	)
-	(wire
-		(pts
-			(xy 34.29 87.63) (xy 38.1 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb53b7a1-6192-4043-afa3-92ebd6fd35d9")
 	)
 	(bus
 		(pts
@@ -13308,7 +13318,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 85.09 180)
+		(at 38.1 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13317,7 +13327,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d1d4931-c3b8-4d06-9351-6e0825b2612d")
 		(property "Reference" "R1901"
-			(at 40.64 83.8199 0)
+			(at 40.64 82.5499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13326,7 +13336,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 40.64 86.3599 0)
+			(at 40.64 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13335,7 +13345,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 38.1 85.09 0)
+			(at 38.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 85.09 0)
+			(at 38.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13363,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 85.09 0)
+			(at 38.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14711,7 +14721,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 49.53 85.09 180)
+		(at 49.53 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14720,7 +14730,7 @@
 		(fields_autoplaced yes)
 		(uuid "5eb77411-467f-4f50-a3b7-5ba0aa3f59a2")
 		(property "Reference" "R1902"
-			(at 52.07 83.8199 0)
+			(at 52.07 82.5499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -14729,7 +14739,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 52.07 86.3599 0)
+			(at 52.07 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14738,7 +14748,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 49.53 85.09 0)
+			(at 49.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14747,7 +14757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 85.09 0)
+			(at 49.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14756,7 +14766,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 49.53 85.09 0)
+			(at 49.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17245,7 +17255,7 @@
 	)
 	(symbol
 		(lib_id "power:VD")
-		(at 38.1 82.55 0)
+		(at 38.1 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17254,7 +17264,7 @@
 		(fields_autoplaced yes)
 		(uuid "c69261df-580a-413c-bc8e-0117265d33e1")
 		(property "Reference" "#PWR01902"
-			(at 38.1 86.36 0)
+			(at 38.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17263,7 +17273,7 @@
 			)
 		)
 		(property "Value" "MCU_3V3"
-			(at 38.1 77.47 0)
+			(at 38.1 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17271,7 +17281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 82.55 0)
+			(at 38.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17280,7 +17290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 82.55 0)
+			(at 38.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17289,7 +17299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VD\""
-			(at 38.1 82.55 0)
+			(at 38.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18209,7 +18219,7 @@
 	)
 	(symbol
 		(lib_id "power:VD")
-		(at 49.53 82.55 0)
+		(at 49.53 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18218,7 +18228,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea4c19b2-1e99-4591-93aa-cef7c36452c9")
 		(property "Reference" "#PWR01904"
-			(at 49.53 86.36 0)
+			(at 49.53 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18227,7 +18237,7 @@
 			)
 		)
 		(property "Value" "MCU_3V3"
-			(at 49.53 77.47 0)
+			(at 49.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18235,7 +18245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 82.55 0)
+			(at 49.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18244,7 +18254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 82.55 0)
+			(at 49.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18253,7 +18263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VD\""
-			(at 49.53 82.55 0)
+			(at 49.53 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18496,7 +18506,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LDO_5V.kicad_sch"
+		(property "Sheetfile" "DCDC_ADJUCTABLE.kicad_sch"
 			(at 22.86 32.3346 0)
 			(effects
 				(font
