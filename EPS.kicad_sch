@@ -2737,6 +2737,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 161.29) (xy 148.59 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d83ce4-b25c-456b-8f3e-2967cb590579")
+	)
+	(wire
+		(pts
 			(xy 40.64 144.78) (xy 53.34 144.78)
 		)
 		(stroke
@@ -3618,6 +3628,16 @@
 			(color 0 117 255 1)
 		)
 		(uuid "9313601e-ee43-48a0-ba4e-56c1e2082f26")
+	)
+	(wire
+		(pts
+			(xy 134.62 158.75) (xy 148.59 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931ddbf5-71f8-4c38-8061-18dea2cb9526")
 	)
 	(polyline
 		(pts
@@ -9473,7 +9493,7 @@
 		(uuid "e89e9b35-5077-4296-801c-ea9250697b1b")
 	)
 	(label "BATT_ALERT_1"
-		(at 133.35 158.75 0)
+		(at 134.62 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9483,7 +9503,7 @@
 		(uuid "e92dec32-fc11-4e36-b272-abd3fbc47ca4")
 	)
 	(label "BATT_ALERT_2"
-		(at 133.35 162.56 0)
+		(at 134.62 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13042,7 +13062,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10"
 			(at 248.666 63.5 0)
 			(effects
 				(font
@@ -13111,7 +13131,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "10"
 			(at 248.666 95.25 0)
 			(effects
 				(font
@@ -13558,7 +13578,7 @@
 				(justify left)
 			)
 		)
-		(pin "CS" output
+		(pin "CS_1" output
 			(at 187.96 204.47 0)
 			(uuid "6b6ae51f-170f-4096-b514-2cf90ad490a6")
 			(effects
@@ -13661,6 +13681,26 @@
 		(pin "SOL_STAT_2" input
 			(at 148.59 173.99 180)
 			(uuid "d5444238-2fc8-45c9-9b02-b7bedae29990")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT_ALERT_1" input
+			(at 148.59 158.75 180)
+			(uuid "533d979b-8651-40ca-b7e4-98824c52571d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT_ALERT_2" input
+			(at 148.59 161.29 180)
+			(uuid "5c9a93c8-b275-4f3e-bdba-752be1377935")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14693,7 +14733,7 @@
 				(justify left)
 			)
 		)
-		(pin "CS" output
+		(pin "CS_1" output
 			(at 205.74 204.47 180)
 			(uuid "5b555d10-764a-4cb7-b42b-99fc9874ac19")
 			(effects

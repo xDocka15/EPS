@@ -2389,7 +2389,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8a3a50ea-0f1f-4a5e-84e8-d258573587f9")
 		(property "Reference" "R604"
@@ -2401,7 +2401,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "SELECT"
 			(at 158.75 133.3499 0)
 			(effects
 				(font
@@ -2755,7 +2755,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a83d00de-a73f-4f3a-84c3-c95251705199")
 		(property "Reference" "R603"
@@ -2767,7 +2767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "SELECT"
 			(at 158.75 95.2499 0)
 			(effects
 				(font
