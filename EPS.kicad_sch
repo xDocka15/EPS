@@ -1688,6 +1688,25 @@
 		)
 		(uuid "ea91823f-aa89-459c-8376-2ef45bbaef27")
 	)
+	(text_box "each switch 5amps\nmax ~20mR"
+		(exclude_from_sim no)
+		(at 194.31 35.56 0)
+		(size 31.75 64.77)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a79ac8c-0a12-45af-914a-1ccc8710cc0b")
+	)
 	(text_box "External module"
 		(exclude_from_sim no)
 		(at 344.17 27.94 0)
@@ -1752,10 +1771,10 @@
 		)
 		(uuid "7a30b633-f6a1-4976-8930-10300c40559a")
 	)
-	(text_box "216W\nat 16V needs to withstand 13.5A\nalternative a simple P_fet"
+	(text_box "alternative a simple P_fet\n10amps min each\nmaybe add temperature measurement to the juction\nmax ~5mR"
 		(exclude_from_sim no)
-		(at 267.97 27.94 0)
-		(size 64.77 86.36)
+		(at 271.78 27.94 0)
+		(size 60.96 86.36)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3451,6 +3470,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 208.28) (xy 275.59 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b71905c-dddd-4f39-a3c0-b6af9629de06")
+	)
+	(wire
+		(pts
 			(xy 35.56 212.09) (xy 45.72 212.09)
 		)
 		(stroke
@@ -3669,6 +3698,16 @@
 			(type default)
 		)
 		(uuid "5ad3b4ac-9b1f-4ea7-b86a-b3db354007ea")
+	)
+	(wire
+		(pts
+			(xy 265.43 205.74) (xy 275.59 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c051365-95bc-4984-91b9-35eb0d83bc64")
 	)
 	(wire
 		(pts
@@ -4799,6 +4838,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 87.63) (xy 137.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ea919a-4f8f-47ce-8ede-5189ea4af88f")
+	)
+	(wire
+		(pts
 			(xy 107.95 116.84) (xy 107.95 91.44)
 		)
 		(stroke
@@ -4926,6 +4975,16 @@
 			(type default)
 		)
 		(uuid "bc527a77-4f66-4bb9-9134-a56d1d1b5219")
+	)
+	(wire
+		(pts
+			(xy 123.19 53.34) (xy 137.16 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd77cc3d-c963-487f-84a9-1d11b820777d")
 	)
 	(wire
 		(pts
@@ -9891,6 +9950,16 @@
 		)
 		(uuid "5c3fb536-737d-490a-b368-70f7af43633e")
 	)
+	(label "HEATER_1"
+		(at 275.59 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c8f8cf8-17ef-4e51-89a8-e50810d0a054")
+	)
 	(label "SOL_STAT_2"
 		(at 120.65 198.12 0)
 		(effects
@@ -9920,6 +9989,16 @@
 			(justify left bottom)
 		)
 		(uuid "5f6eadf7-485e-4836-bd1f-90d374205217")
+	)
+	(label "HEATER_2"
+		(at 123.19 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6126d893-9b0f-4a0b-8275-ecc574b3a79d")
 	)
 	(label "SOL_STAT_2"
 		(at 40.64 156.21 0)
@@ -10178,6 +10257,16 @@
 			)
 		)
 	)
+	(label "HEATER_2"
+		(at 275.59 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f817e2c-3e7f-45de-83b5-0fc00c12bbe6")
+	)
 	(label "AMEAS_BUS"
 		(at 328.93 59.69 180)
 		(effects
@@ -10369,6 +10458,16 @@
 			(justify right bottom)
 		)
 		(uuid "a47fb481-eec9-43cd-86e5-9b7d37625a75")
+	)
+	(label "HEATER_1"
+		(at 123.19 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6db0321-db76-4ffb-afde-a9542dc5b8e7")
 	)
 	(label "AMEAS_SOL_1"
 		(at 62.23 257.81 180)
@@ -15762,6 +15861,16 @@
 				(justify right)
 			)
 		)
+		(pin "HEATER" input
+			(at 137.16 53.34 180)
+			(uuid "9d1f976e-0317-4ff6-9e21-91f99adb2298")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0"
@@ -17405,6 +17514,26 @@
 				(justify left)
 			)
 		)
+		(pin "HEATER_1" input
+			(at 265.43 208.28 0)
+			(uuid "3dd168e8-8749-4ef5-ac94-c7b8eddd7db0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HEATER_2" input
+			(at 265.43 205.74 0)
+			(uuid "02aca75b-0610-4fb6-9fab-eebfc8f0dee1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0"
@@ -17865,6 +17994,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "HEATER" input
+			(at 137.16 87.63 180)
+			(uuid "05701e21-e594-4d7a-b03e-1e660421a00f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
