@@ -3378,6 +3378,16 @@
 		)
 		(uuid "4950809e-11ef-415b-a506-9c82967d3afe")
 	)
+	(wire
+		(pts
+			(xy 40.64 82.55) (xy 53.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a86278b-954c-4cdc-9111-032415ab9b19")
+	)
 	(polyline
 		(pts
 			(xy 367.03 168.91) (xy 367.03 157.48)
@@ -3755,6 +3765,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 158.75) (xy 53.34 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64090ec4-d669-4a5e-a455-f955de1f5b71")
+	)
+	(wire
+		(pts
 			(xy 111.76 257.81) (xy 125.73 257.81)
 		)
 		(stroke
@@ -3772,6 +3792,16 @@
 			(type default)
 		)
 		(uuid "69c9efa5-da97-4ae7-91d9-320b9d1669b1")
+	)
+	(wire
+		(pts
+			(xy 40.64 133.35) (xy 53.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a36594b-02d7-404a-925a-d34801e24e0c")
 	)
 	(wire
 		(pts
@@ -4587,6 +4617,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 124.46) (xy 133.35 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27494c3-20f6-4fec-86f9-c390e0bc9b10")
+	)
+	(wire
+		(pts
 			(xy 25.4 262.89) (xy 36.83 262.89)
 		)
 		(stroke
@@ -4816,6 +4856,16 @@
 			(type default)
 		)
 		(uuid "b5e88381-27e3-4636-a239-2d8db541dea6")
+	)
+	(wire
+		(pts
+			(xy 40.64 184.15) (xy 53.34 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68f8425-4312-4e06-896b-205c9d94ebe6")
 	)
 	(wire
 		(pts
@@ -5120,6 +5170,16 @@
 		)
 		(uuid "cafeb1f5-23c0-4aea-9959-7172b579850e")
 	)
+	(wire
+		(pts
+			(xy 40.64 107.95) (xy 53.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba20393-0380-4fc9-91d8-c1df21f76028")
+	)
 	(bus
 		(pts
 			(xy 22.86 260.35) (xy 22.86 262.89)
@@ -5129,6 +5189,16 @@
 			(type default)
 		)
 		(uuid "cba9a733-9ce9-47af-a9df-c7caeb9b288b")
+	)
+	(wire
+		(pts
+			(xy 40.64 57.15) (xy 53.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce585614-c774-41a6-ba21-0dbfd92ce174")
 	)
 	(wire
 		(pts
@@ -9398,7 +9468,7 @@
 		)
 		(uuid "22e4923d-b19c-4112-a3f0-7f07dae8c2bb")
 	)
-	(label "SOL_TGGL_3"
+	(label "SOL_TGGL_2"
 		(at 40.64 100.33 0)
 		(effects
 			(font
@@ -9427,6 +9497,16 @@
 			(justify right bottom)
 		)
 		(uuid "26ae3fc6-c969-4b43-8f88-5a2a4117f312")
+	)
+	(label "SOL_CC"
+		(at 40.64 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27b47afe-6658-4ce2-9666-8af577608627")
 	)
 	(label "BATTERY_2"
 		(at 196.85 184.15 0)
@@ -9592,6 +9672,16 @@
 				(justify left)
 			)
 		)
+	)
+	(label "SOL_CC"
+		(at 140.97 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b5302e0-7b29-4d39-a68c-6593c512bc25")
 	)
 	(label "PV_2"
 		(at 35.56 212.09 0)
@@ -9768,6 +9858,16 @@
 		)
 		(uuid "4e68b651-57ba-40d4-8132-6b47f6586fdf")
 	)
+	(label "SOL_CC"
+		(at 40.64 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fdc48af-cd8a-4f70-b1ca-8d80d8318c8d")
+	)
 	(label "AMEAS_BUS"
 		(at 62.23 278.13 180)
 		(effects
@@ -9797,6 +9897,16 @@
 			(justify right bottom)
 		)
 		(uuid "53a4568e-5761-416b-921a-fbd50aae27f1")
+	)
+	(label "SOL_CC"
+		(at 40.64 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "558a80e9-5fe3-4f0f-887f-8300d56817ce")
 	)
 	(label "PV_5"
 		(at 270.51 196.85 180)
@@ -9829,6 +9939,16 @@
 			(justify right bottom)
 		)
 		(uuid "56e08ccc-6bb3-4565-bcbd-c4b9a76636cf")
+	)
+	(label "SOL_CC"
+		(at 40.64 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "583c5d1e-93c7-4a08-b28b-6dedf8680186")
 	)
 	(label "AMEAS_SOL_6"
 		(at 62.23 270.51 180)
@@ -10167,7 +10287,7 @@
 		)
 		(uuid "82c597ef-af28-4e48-869a-23f5c4202f37")
 	)
-	(label "SOL_TGGL_2"
+	(label "SOL_TGGL_1"
 		(at 40.64 74.93 0)
 		(effects
 			(font
@@ -10329,7 +10449,7 @@
 		)
 		(uuid "9e04e34f-c9e5-494e-9072-f08bc9b9838e")
 	)
-	(label "SOL_TGGL_3"
+	(label "SOL_TGGL_2"
 		(at 40.64 125.73 0)
 		(effects
 			(font
@@ -10338,6 +10458,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e46afd9-95d2-42b9-a5b6-0a48a2aa62e6")
+	)
+	(label "SOL_CC"
+		(at 40.64 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f2585b7-7b85-4a10-8b2c-df64a6d8150a")
 	)
 	(label "PV_1"
 		(at 270.51 186.69 180)
@@ -10622,6 +10752,16 @@
 			(justify right bottom)
 		)
 		(uuid "d1fe7ea3-e873-4fc0-bdae-51e20c6c2da7")
+	)
+	(label "SOL_CC"
+		(at 40.64 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2abe97e-45f4-44ff-804c-aa8620177827")
 	)
 	(label "BUS"
 		(at 196.85 191.77 0)
@@ -11116,7 +11256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 212.09 99.06 0)
 			(effects
 				(font
@@ -11843,7 +11983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 287.02 69.85 0)
 			(effects
 				(font
@@ -12313,7 +12453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 212.09 64.77 0)
 			(effects
 				(font
@@ -15643,16 +15783,6 @@
 				(hide yes)
 			)
 		)
-		(pin "TMEAS_BATT" output
-			(at 158.75 55.88 0)
-			(uuid "0671b187-f060-4922-8a12-567b8c06a0bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Heater_EN" input
 			(at 137.16 50.8 180)
 			(uuid "75bb0e0a-fd32-4e35-a29a-d03c182ee33d")
@@ -15661,16 +15791,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "BATT_ALERT" output
-			(at 158.75 58.42 0)
-			(uuid "e4de6499-fde1-44bf-b0d3-e4d0580b3b26")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "BATT" output
@@ -15691,6 +15811,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "TMEAS" output
+			(at 158.75 55.88 0)
+			(uuid "e16f28ab-10d7-41a7-b710-787f105e2011")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALERT" output
+			(at 158.75 58.42 0)
+			(uuid "5fdd3e53-57c0-44c8-9576-c634a4d48dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -16048,7 +16188,7 @@
 	)
 	(sheet
 		(at 53.34 114.3)
-		(size 17.78 19.05)
+		(size 17.78 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16072,7 +16212,7 @@
 			)
 		)
 		(property "Sheetfile" "Solar_Cell_Input.kicad_sch"
-			(at 53.34 133.9346 0)
+			(at 53.34 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16174,6 +16314,16 @@
 		(pin "FIXED_IN" input
 			(at 53.34 121.92 180)
 			(uuid "0a8fb4ad-4536-434a-84e5-8daac5326985")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC_Source" input
+			(at 53.34 133.35 180)
+			(uuid "9a8f3a9d-0099-4d88-8ae3-67984b0cbce4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16377,7 +16527,7 @@
 	)
 	(sheet
 		(at 53.34 88.9)
-		(size 17.78 19.05)
+		(size 17.78 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16401,7 +16551,7 @@
 			)
 		)
 		(property "Sheetfile" "Solar_Cell_Input.kicad_sch"
-			(at 53.34 108.5346 0)
+			(at 53.34 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16510,6 +16660,16 @@
 				(justify left)
 			)
 		)
+		(pin "CC_Source" input
+			(at 53.34 107.95 180)
+			(uuid "51aa53e0-9380-4c1f-91b2-c1c9d9d7e040")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0"
@@ -16602,7 +16762,7 @@
 	)
 	(sheet
 		(at 53.34 38.1)
-		(size 17.78 19.05)
+		(size 17.78 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16626,7 +16786,7 @@
 			)
 		)
 		(property "Sheetfile" "Solar_Cell_Input.kicad_sch"
-			(at 53.34 57.7346 0)
+			(at 53.34 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16735,6 +16895,16 @@
 				(justify left)
 			)
 		)
+		(pin "CC_Source" input
+			(at 53.34 57.15 180)
+			(uuid "1b8cfae0-c5aa-4c1d-bc94-6b8b302c9987")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0"
@@ -16818,7 +16988,7 @@
 	)
 	(sheet
 		(at 53.34 63.5)
-		(size 17.78 19.05)
+		(size 17.78 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16842,7 +17012,7 @@
 			)
 		)
 		(property "Sheetfile" "Solar_Cell_Input.kicad_sch"
-			(at 53.34 83.1346 0)
+			(at 53.34 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16944,6 +17114,16 @@
 		(pin "FIXED_IN" input
 			(at 53.34 71.12 180)
 			(uuid "f9f837ef-8616-41f2-aa3b-dc75962c4b09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC_Source" input
+			(at 53.34 82.55 180)
+			(uuid "be1097d6-b5aa-4258-bb2a-4ffcc77f5b9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17272,6 +17452,58 @@
 		)
 	)
 	(sheet
+		(at 120.65 121.92)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b647b8e5-49d4-4136-ac0c-fb9e3963ad08")
+		(property "Sheetname" "CC_Source"
+			(at 120.65 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CC_Source.kicad_sch"
+			(at 120.65 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CC_Source" input
+			(at 133.35 124.46 0)
+			(uuid "cfa42e6d-9159-4942-8316-eb5cff468bf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0"
+					(page "108")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 209.55 45.72)
 		(size 15.24 15.24)
 		(exclude_from_sim no)
@@ -17366,7 +17598,7 @@
 	)
 	(sheet
 		(at 53.34 139.7)
-		(size 17.78 19.05)
+		(size 17.78 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17390,7 +17622,7 @@
 			)
 		)
 		(property "Sheetfile" "Solar_Cell_Input.kicad_sch"
-			(at 53.34 159.3346 0)
+			(at 53.34 160.6046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17499,6 +17731,16 @@
 				(justify left)
 			)
 		)
+		(pin "CC_Source" input
+			(at 53.34 158.75 180)
+			(uuid "e8807f92-adfc-42dd-9152-113bd06a9355")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0"
@@ -17509,7 +17751,7 @@
 	)
 	(sheet
 		(at 53.34 165.1)
-		(size 17.78 19.05)
+		(size 17.78 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17533,7 +17775,7 @@
 			)
 		)
 		(property "Sheetfile" "Solar_Cell_Input.kicad_sch"
-			(at 53.34 184.7346 0)
+			(at 53.34 186.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17642,6 +17884,16 @@
 				(justify left)
 			)
 		)
+		(pin "CC_Source" input
+			(at 53.34 184.15 180)
+			(uuid "eee7cfc8-36b3-473d-a277-612ef33a84d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0"
@@ -17685,16 +17937,6 @@
 				(hide yes)
 			)
 		)
-		(pin "TMEAS_BATT" output
-			(at 158.75 90.17 0)
-			(uuid "0191c948-a236-4a12-896e-829ab7b347b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Heater_EN" input
 			(at 137.16 85.09 180)
 			(uuid "74b9ed18-7fe0-414e-8cb6-0c757fb0aa8b")
@@ -17703,16 +17945,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "BATT_ALERT" output
-			(at 158.75 92.71 0)
-			(uuid "6de723d9-38cf-40fd-ba0e-1200f16ce834")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "BATT" output
@@ -17733,6 +17965,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "TMEAS" output
+			(at 158.75 90.17 0)
+			(uuid "5073c517-11a7-40af-9c4d-6c473d9dc574")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ALERT" output
+			(at 158.75 92.71 0)
+			(uuid "768f53d4-6c99-4610-86b4-08f4564daf22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

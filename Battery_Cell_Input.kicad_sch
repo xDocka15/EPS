@@ -559,6 +559,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers
 				(hide yes)
@@ -1492,6 +1634,12 @@
 		(uuid "1ae4831d-f08e-4b1d-ab67-f2013a95d9b4")
 	)
 	(junction
+		(at 49.53 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22610a41-e045-4028-a2f1-c800288773da")
+	)
+	(junction
 		(at 134.62 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1971,6 +2119,26 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 124.46) (xy 49.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5013697b-082b-4502-83c0-365481c577bb")
+	)
+	(wire
+		(pts
+			(xy 35.56 102.87) (xy 49.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525cc785-805a-45ec-a0a1-b6514b72e778")
+	)
+	(wire
+		(pts
 			(xy 110.49 86.36) (xy 110.49 88.9)
 		)
 		(stroke
@@ -1991,16 +2159,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 127) (xy 50.8 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57f2aeb3-881d-4b02-a5b7-edc3cef73ec5")
-	)
-	(wire
-		(pts
 			(xy 110.49 88.9) (xy 118.11 88.9)
 		)
 		(stroke
@@ -2018,6 +2176,16 @@
 			(type default)
 		)
 		(uuid "5dc8cad7-31e3-40a7-9715-aa6ff49a9349")
+	)
+	(wire
+		(pts
+			(xy 49.53 127) (xy 49.53 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616459b8-f959-4540-a01d-2f918e9f2592")
 	)
 	(wire
 		(pts
@@ -2098,6 +2266,16 @@
 			(type default)
 		)
 		(uuid "6d02c060-0abe-438b-a31d-af5833c5ea8d")
+	)
+	(wire
+		(pts
+			(xy 49.53 124.46) (xy 49.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d51fbf3-dce2-4e26-bf1b-87d080eeb8c7")
 	)
 	(wire
 		(pts
@@ -2188,6 +2366,16 @@
 			(type default)
 		)
 		(uuid "7e316827-94c2-48bf-a6c8-8c2fb4d9a2da")
+	)
+	(wire
+		(pts
+			(xy 49.53 124.46) (xy 59.69 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4aa40b-f623-4e1f-b5bb-c188f4510f20")
 	)
 	(wire
 		(pts
@@ -2431,6 +2619,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 127) (xy 49.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05e3755-5370-4e7b-9a15-a02b90e3314e")
+	)
+	(wire
+		(pts
 			(xy 251.46 125.73) (xy 251.46 140.97)
 		)
 		(stroke
@@ -2578,6 +2776,16 @@
 			(type default)
 		)
 		(uuid "e0826cb8-2c40-4d86-b41b-ca7daff82974")
+	)
+	(wire
+		(pts
+			(xy 49.53 102.87) (xy 49.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e41e9ecd-e001-4161-8d81-d4db26d27525")
 	)
 	(wire
 		(pts
@@ -3771,7 +3979,7 @@
 			)
 		)
 	)
-	(hierarchical_label "BATT_ALERT"
+	(hierarchical_label "ALERT"
 		(shape output)
 		(at 175.26 74.93 180)
 		(effects
@@ -3781,6 +3989,17 @@
 			(justify right)
 		)
 		(uuid "39565ac7-13df-4a57-9472-a7e9f3de933c")
+	)
+	(hierarchical_label "TMEAS"
+		(shape output)
+		(at 59.69 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "463b0cd2-5ae8-49f4-84ca-ade3b475a860")
 	)
 	(hierarchical_label "Heater_EN"
 		(shape input)
@@ -3814,17 +4033,6 @@
 			(justify left)
 		)
 		(uuid "a2db1a34-e667-4502-991f-a720c3b3ced6")
-	)
-	(hierarchical_label "TMEAS_BATT"
-		(shape output)
-		(at 54.61 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b868f8fb-a7a2-4cd7-bb55-c858f4f57934")
 	)
 	(hierarchical_label "BATT"
 		(shape input)
@@ -4303,6 +4511,76 @@
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
 					(reference "R1004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2394a4eb-e256-4ca2-95f5-94106b7a34bb")
+		(property "Reference" "#PWR0809"
+			(at 49.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b153ca78-f090-42f6-bdc9-dd60b5f0a397")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
+					(reference "#PWR0809")
+					(unit 1)
+				)
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "#PWR01009")
 					(unit 1)
 				)
 			)
@@ -5439,6 +5717,78 @@
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
 					(reference "C1008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 31.75 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7211c675-1893-4482-8574-eb0a923712e7")
+		(property "Reference" "J801"
+			(at 31.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PT_1000"
+			(at 31.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 31.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43ecea9a-3fe0-407a-9b29-4306dc95a123")
+		)
+		(pin "1"
+			(uuid "87c3f656-ec10-425d-991b-5a545a4a32ed")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
+					(reference "J801")
+					(unit 1)
+				)
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "J1001")
 					(unit 1)
 				)
 			)
@@ -7096,6 +7446,135 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 49.53 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f94f9d54-73a0-43c9-b3fd-de0f4aa37980")
+		(property "Reference" "R808"
+			(at 52.07 118.1099 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 52.07 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a72c485-93aa-44f1-b540-5d6799e51397")
+		)
+		(pin "2"
+			(uuid "61591789-a871-48d2-8ddf-81219e95a4e6")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
+					(reference "R808")
+					(unit 1)
+				)
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "R1008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 100.33)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "448d4a55-23f9-42b7-804c-04dd0e577bf4")
+		(property "Sheetname" "CC_Source"
+			(at 22.86 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CC_Source.kicad_sch"
+			(at 22.86 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CC_Source" input
+			(at 35.56 102.87 0)
+			(uuid "54151e69-f751-4980-b15d-77bf098e1397")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
+					(page "17")
+				)
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(page "22")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 31.75 168.91)
 		(size 15.24 15.24)
@@ -7187,61 +7666,6 @@
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
 					(page "34")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 27.94 120.65)
-		(size 22.86 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a88b9e0a-c05b-4a39-a917-ccbb277c1e01")
-		(property "Sheetname" "Temp_sens_battery"
-			(at 27.94 119.9384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Temp_sens.kicad_sch"
-			(at 27.94 133.9346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "TMEAS" output
-			(at 50.8 127 0)
-			(uuid "aef309cc-a4a4-4e2b-899f-55dc0a358ad6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "EPS"
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(page "27")
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(page "30")
 				)
 			)
 		)
