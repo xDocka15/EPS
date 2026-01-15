@@ -1760,16 +1760,16 @@
 		(uuid "b42c1041-4bb0-470d-bd4a-1c705174c81d")
 	)
 	(junction
+		(at 219.71 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c72fef80-3ec0-40f8-b49b-cc1d6246e24b")
+	)
+	(junction
 		(at 233.68 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9ee5aab-2283-4ec8-a8a1-20d511b851e0")
-	)
-	(junction
-		(at 217.17 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce3291b3-b72e-4f9a-9c02-f089d08d4d56")
 	)
 	(junction
 		(at 187.96 38.1)
@@ -1806,16 +1806,6 @@
 			(type default)
 		)
 		(uuid "052de66a-f96e-4afd-a8d9-37116a462eed")
-	)
-	(wire
-		(pts
-			(xy 217.17 72.39) (xy 219.71 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07088f26-10e6-4f08-9a86-10a13e2bf12e")
 	)
 	(wire
 		(pts
@@ -2789,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 72.39) (xy 200.66 72.39)
+			(xy 200.66 72.39) (xy 219.71 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2819,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 72.39) (xy 217.17 74.93)
+			(xy 219.71 72.39) (xy 219.71 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4106,7 +4096,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "TP902")
+					(reference "TP1002")
 					(unit 1)
 				)
 			)
@@ -4116,6 +4106,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "TP1002")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "TP1002")
 					(unit 1)
 				)
@@ -4186,7 +4182,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R911")
+					(reference "R1011")
 					(unit 1)
 				)
 			)
@@ -4196,6 +4192,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "R1011")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "R1011")
 					(unit 1)
 				)
@@ -4266,7 +4268,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "C905")
+					(reference "C1005")
 					(unit 1)
 				)
 			)
@@ -4276,6 +4278,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "C1005")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "C1005")
 					(unit 1)
 				)
@@ -4292,7 +4300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a5206e4-4218-4b23-959d-3fdbb8545065")
-		(property "Reference" "#PWR0806"
+		(property "Reference" "#PWR0807"
 			(at 198.12 146.05 0)
 			(effects
 				(font
@@ -4342,17 +4350,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "#PWR0906")
+					(reference "#PWR01007")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "#PWR0806")
+					(reference "#PWR0807")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "#PWR01006")
+					(reference "#PWR01007")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "#PWR01007")
 					(unit 1)
 				)
 			)
@@ -4421,7 +4435,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R910")
+					(reference "R1010")
 					(unit 1)
 				)
 			)
@@ -4431,6 +4445,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "R1010")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "R1010")
 					(unit 1)
 				)
@@ -4448,7 +4468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2214c8c6-75c5-4203-9379-7fae7fd42c12")
-		(property "Reference" "R804"
+		(property "Reference" "R805"
 			(at 120.65 72.39 90)
 			(effects
 				(font
@@ -4500,17 +4520,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R904")
+					(reference "R1005")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "R804")
+					(reference "R805")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "R1004")
+					(reference "R1005")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "R1005")
 					(unit 1)
 				)
 			)
@@ -4526,7 +4552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2394a4eb-e256-4ca2-95f5-94106b7a34bb")
-		(property "Reference" "#PWR0809"
+		(property "Reference" "#PWR0801"
 			(at 49.53 134.62 0)
 			(effects
 				(font
@@ -4574,13 +4600,25 @@
 			(uuid "b153ca78-f090-42f6-bdc9-dd60b5f0a397")
 		)
 		(instances
+			(project "TEST_PCB"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
+					(reference "#PWR01001")
+					(unit 1)
+				)
+			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "#PWR0809")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "#PWR01009")
+					(reference "#PWR01001")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "#PWR01001")
 					(unit 1)
 				)
 			)
@@ -4596,7 +4634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c410da3-3c37-4f17-ab46-791d0829af74")
-		(property "Reference" "#PWR0808"
+		(property "Reference" "#PWR0809"
 			(at 273.05 140.97 0)
 			(effects
 				(font
@@ -4646,17 +4684,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "#PWR0908")
+					(reference "#PWR01009")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "#PWR0808")
+					(reference "#PWR0809")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "#PWR01008")
+					(reference "#PWR01009")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "#PWR01009")
 					(unit 1)
 				)
 			)
@@ -4672,19 +4716,20 @@
 		(dnp no)
 		(uuid "2c955d7c-0f3d-4296-afbc-30c635347125")
 		(property "Reference" "Q801"
-			(at 245.11 132.08 90)
+			(at 245.11 129.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "NVTFWS4D9N04XMTAG"
 			(at 245.11 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Outlines:NVTFS5116PLTWG"
@@ -4753,7 +4798,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "Q901")
+					(reference "Q1001")
 					(unit 1)
 				)
 			)
@@ -4763,6 +4808,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "Q1001")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "Q1001")
 					(unit 1)
 				)
@@ -4834,7 +4885,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "C901")
+					(reference "C1001")
 					(unit 1)
 				)
 			)
@@ -4844,6 +4895,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "C1001")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "C1001")
 					(unit 1)
 				)
@@ -4879,7 +4936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Outlines:BHC186501P-li-ion"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 110.49 72.136 90)
 			(effects
 				(font
@@ -4915,7 +4972,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "BT903")
+					(reference "BT1003")
 					(unit 1)
 				)
 			)
@@ -4925,6 +4982,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "BT1003")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "BT1003")
 					(unit 1)
 				)
@@ -4941,7 +5004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37141157-712a-4174-82ba-14bb0cd85223")
-		(property "Reference" "R807"
+		(property "Reference" "R808"
 			(at 215.9 120.65 90)
 			(effects
 				(font
@@ -4993,17 +5056,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R907")
+					(reference "R1008")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "R807")
+					(reference "R808")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "R1007")
+					(reference "R1008")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "R1008")
 					(unit 1)
 				)
 			)
@@ -5038,7 +5107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Outlines:BHC186501P-li-ion"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 110.49 51.816 90)
 			(effects
 				(font
@@ -5074,7 +5143,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "BT901")
+					(reference "BT1001")
 					(unit 1)
 				)
 			)
@@ -5084,6 +5153,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "BT1001")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "BT1001")
 					(unit 1)
 				)
@@ -5155,7 +5230,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "C903")
+					(reference "C1003")
 					(unit 1)
 				)
 			)
@@ -5165,6 +5240,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "C1003")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "C1003")
 					(unit 1)
 				)
@@ -5235,7 +5316,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "C907")
+					(reference "C1007")
 					(unit 1)
 				)
 			)
@@ -5245,6 +5326,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "C1007")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "C1007")
 					(unit 1)
 				)
@@ -5261,7 +5348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44021fc8-13ae-443e-8e29-ef0a82e67fd6")
-		(property "Reference" "#PWR0803"
+		(property "Reference" "#PWR0804"
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -5311,17 +5398,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "#PWR0903")
+					(reference "#PWR01004")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "#PWR0803")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "#PWR01003")
+					(reference "#PWR01004")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "#PWR01004")
 					(unit 1)
 				)
 			)
@@ -5391,7 +5484,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "C906")
+					(reference "C1006")
 					(unit 1)
 				)
 			)
@@ -5401,6 +5494,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "C1006")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "C1006")
 					(unit 1)
 				)
@@ -5468,7 +5567,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "TP901")
+					(reference "TP1001")
 					(unit 1)
 				)
 			)
@@ -5478,6 +5577,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "TP1001")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "TP1001")
 					(unit 1)
 				)
@@ -5495,7 +5600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c248da7-c5e1-4157-a0d9-b8ddac03a303")
-		(property "Reference" "R802"
+		(property "Reference" "R803"
 			(at 120.65 52.07 90)
 			(effects
 				(font
@@ -5547,17 +5652,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R902")
+					(reference "R1003")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "R802")
+					(reference "R803")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "R1002")
+					(reference "R1003")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "R1003")
 					(unit 1)
 				)
 			)
@@ -5574,7 +5685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "592789b9-91fc-4fa6-a87c-4b33ab4eb9de")
-		(property "Reference" "R803"
+		(property "Reference" "R804"
 			(at 120.65 62.23 90)
 			(effects
 				(font
@@ -5626,17 +5737,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R903")
+					(reference "R1004")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "R803")
+					(reference "R804")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "R1003")
+					(reference "R1004")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "R1004")
 					(unit 1)
 				)
 			)
@@ -5706,7 +5823,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "C908")
+					(reference "C1008")
 					(unit 1)
 				)
 			)
@@ -5716,6 +5833,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "C1008")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "C1008")
 					(unit 1)
 				)
@@ -5782,12 +5905,24 @@
 			(uuid "87c3f656-ec10-425d-991b-5a545a4a32ed")
 		)
 		(instances
+			(project "TEST_PCB"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
+					(reference "J1001")
+					(unit 1)
+				)
+			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
 					(reference "J801")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "J1001")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "J1001")
 					(unit 1)
 				)
@@ -5804,7 +5939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7479436d-ce1f-46e4-9007-2aea48693c74")
-		(property "Reference" "#PWR0804"
+		(property "Reference" "#PWR0805"
 			(at 185.42 146.05 0)
 			(effects
 				(font
@@ -5854,17 +5989,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "#PWR0904")
+					(reference "#PWR01005")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "#PWR0804")
+					(reference "#PWR0805")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "#PWR01004")
+					(reference "#PWR01005")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "#PWR01005")
 					(unit 1)
 				)
 			)
@@ -5880,7 +6021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77c2b47b-8559-44af-ab35-16fdfd656838")
-		(property "Reference" "#PWR0805"
+		(property "Reference" "#PWR0806"
 			(at 187.96 109.22 0)
 			(effects
 				(font
@@ -5930,17 +6071,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "#PWR0905")
+					(reference "#PWR01006")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "#PWR0805")
+					(reference "#PWR0806")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "#PWR01005")
+					(reference "#PWR01006")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "#PWR01006")
 					(unit 1)
 				)
 			)
@@ -5957,19 +6104,20 @@
 		(dnp no)
 		(uuid "809d4d3d-8aa9-4da3-a233-b8414a3e4834")
 		(property "Reference" "Q802"
-			(at 261.62 132.08 90)
+			(at 261.62 129.794 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "NVTFWS4D9N04XMTAG"
 			(at 261.62 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Outlines:NVTFS5116PLTWG"
@@ -6038,7 +6186,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "Q902")
+					(reference "Q1002")
 					(unit 1)
 				)
 			)
@@ -6048,6 +6196,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "Q1002")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "Q1002")
 					(unit 1)
 				)
@@ -6064,7 +6218,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "85946d58-7cc3-45d2-b11a-675f0ce60189")
-		(property "Reference" "R814"
+		(property "Reference" "R813"
 			(at 261.62 135.89 90)
 			(effects
 				(font
@@ -6116,17 +6270,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R914")
+					(reference "R1013")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "R814")
+					(reference "R813")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "R1014")
+					(reference "R1013")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "R1013")
 					(unit 1)
 				)
 			)
@@ -6193,7 +6353,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R909")
+					(reference "R1009")
 					(unit 1)
 				)
 			)
@@ -6203,6 +6363,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "R1009")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "R1009")
 					(unit 1)
 				)
@@ -6218,7 +6384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92a7b165-fe10-4d6d-8395-80b02eb692aa")
-		(property "Reference" "R816"
+		(property "Reference" "R814"
 			(at 263.906 107.95 0)
 			(effects
 				(font
@@ -6272,17 +6438,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R916")
+					(reference "R1014")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "R816")
+					(reference "R814")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "R1016")
+					(reference "R1014")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "R1014")
 					(unit 1)
 				)
 			)
@@ -6299,7 +6471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3bfeb8c-1431-473b-af19-e3df9094fe88")
-		(property "Reference" "R805"
+		(property "Reference" "R806"
 			(at 120.65 83.82 90)
 			(effects
 				(font
@@ -6351,17 +6523,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R905")
+					(reference "R1006")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "R805")
+					(reference "R806")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "R1005")
+					(reference "R1006")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "R1006")
 					(unit 1)
 				)
 			)
@@ -6396,7 +6574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Outlines:BHC186501P-li-ion"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 110.49 82.296 90)
 			(effects
 				(font
@@ -6432,7 +6610,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "BT904")
+					(reference "BT1004")
 					(unit 1)
 				)
 			)
@@ -6442,6 +6620,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "BT1004")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "BT1004")
 					(unit 1)
 				)
@@ -6513,7 +6697,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "C902")
+					(reference "C1002")
 					(unit 1)
 				)
 			)
@@ -6523,6 +6707,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "C1002")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "C1002")
 					(unit 1)
 				)
@@ -6558,7 +6748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Outlines:BHC186501P-li-ion"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 110.49 61.976 90)
 			(effects
 				(font
@@ -6594,7 +6784,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "BT902")
+					(reference "BT1002")
 					(unit 1)
 				)
 			)
@@ -6604,6 +6794,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "BT1002")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "BT1002")
 					(unit 1)
 				)
@@ -6728,7 +6924,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "U901")
+					(reference "U1001")
 					(unit 1)
 				)
 			)
@@ -6738,6 +6934,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "U1001")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "U1001")
 					(unit 1)
 				)
@@ -6754,7 +6956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d19d5048-db3c-4d68-9639-375e79135c57")
-		(property "Reference" "R801"
+		(property "Reference" "R802"
 			(at 120.65 41.91 90)
 			(effects
 				(font
@@ -6806,17 +7008,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R901")
+					(reference "R1002")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "R801")
+					(reference "R802")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "R1001")
+					(reference "R1002")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "R1002")
 					(unit 1)
 				)
 			)
@@ -6824,7 +7032,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 217.17 77.47 0)
+		(at 219.71 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6833,7 +7041,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5bef8af-3759-486c-8040-3e663228d455")
 		(property "Reference" "C810"
-			(at 219.71 76.2062 0)
+			(at 222.25 76.2062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6842,7 +7050,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 219.71 78.7462 0)
+			(at 222.25 78.7462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +7059,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 217.17 77.47 0)
+			(at 219.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +7068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 77.47 0)
+			(at 219.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +7077,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 217.17 77.47 0)
+			(at 219.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +7094,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "C910")
+					(reference "C1010")
 					(unit 1)
 				)
 			)
@@ -6896,6 +7104,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "C1010")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "C1010")
 					(unit 1)
 				)
@@ -6912,7 +7126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddeefed6-e6ba-43ce-9460-08e76470f577")
-		(property "Reference" "#PWR0801"
+		(property "Reference" "#PWR0802"
 			(at 154.94 116.84 0)
 			(effects
 				(font
@@ -6962,17 +7176,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "#PWR0901")
+					(reference "#PWR01002")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "#PWR0801")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "#PWR01001")
+					(reference "#PWR01002")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "#PWR01002")
 					(unit 1)
 				)
 			)
@@ -7043,7 +7263,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "C904")
+					(reference "C1004")
 					(unit 1)
 				)
 			)
@@ -7053,6 +7273,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "C1004")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "C1004")
 					(unit 1)
 				)
@@ -7121,7 +7347,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R912")
+					(reference "R1012")
 					(unit 1)
 				)
 			)
@@ -7131,6 +7357,12 @@
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
+					(reference "R1012")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
 					(reference "R1012")
 					(unit 1)
 				)
@@ -7146,7 +7378,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebc68d32-9b04-417f-82f2-5fb29ea20e37")
-		(property "Reference" "R806"
+		(property "Reference" "R807"
 			(at 211.074 113.03 0)
 			(effects
 				(font
@@ -7200,17 +7432,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "R906")
+					(reference "R1007")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "R806")
+					(reference "R807")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "R1006")
+					(reference "R1007")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "R1007")
 					(unit 1)
 				)
 			)
@@ -7278,7 +7516,7 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "C909")
+					(reference "C1009")
 					(unit 1)
 				)
 			)
@@ -7292,11 +7530,17 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "C1009")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 80.01 0)
+		(at 219.71 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7304,8 +7548,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2ea35ce-18ba-47c0-9f8a-076e00a2f7c7")
-		(property "Reference" "#PWR0807"
-			(at 217.17 86.36 0)
+		(property "Reference" "#PWR0808"
+			(at 219.71 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +7558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 85.09 0)
+			(at 219.71 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +7566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 80.01 0)
+			(at 219.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,7 +7575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 80.01 0)
+			(at 219.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7340,7 +7584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 80.01 0)
+			(at 219.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,17 +7598,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "#PWR0907")
+					(reference "#PWR01008")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "#PWR0807")
+					(reference "#PWR0808")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "#PWR01007")
+					(reference "#PWR01008")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "#PWR01008")
 					(unit 1)
 				)
 			)
@@ -7380,7 +7630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f396eddc-55a5-42ca-8b2f-afbcb5eada95")
-		(property "Reference" "#PWR0802"
+		(property "Reference" "#PWR0803"
 			(at 160.02 116.84 0)
 			(effects
 				(font
@@ -7430,17 +7680,23 @@
 		(instances
 			(project "TEST_PCB"
 				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
-					(reference "#PWR0902")
+					(reference "#PWR01003")
 					(unit 1)
 				)
 			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "#PWR0802")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "#PWR01002")
+					(reference "#PWR01003")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "#PWR01003")
 					(unit 1)
 				)
 			)
@@ -7456,7 +7712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f94f9d54-73a0-43c9-b3fd-de0f4aa37980")
-		(property "Reference" "R808"
+		(property "Reference" "R801"
 			(at 52.07 118.1099 0)
 			(effects
 				(font
@@ -7508,13 +7764,25 @@
 			(uuid "61591789-a871-48d2-8ddf-81219e95a4e6")
 		)
 		(instances
+			(project "TEST_PCB"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/e4dfe94c-1781-4e0e-8290-73a1da958379"
+					(reference "R1001")
+					(unit 1)
+				)
+			)
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2806d1e0-46ba-47ac-8022-17737bffb744"
-					(reference "R808")
+					(reference "R801")
 					(unit 1)
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
-					(reference "R1008")
+					(reference "R1001")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(reference "R1001")
 					(unit 1)
 				)
 			)
@@ -7545,7 +7813,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CC_Source.kicad_sch"
+		(property "Sheetfile" "../CC_Source.kicad_sch"
 			(at 22.86 107.2646 0)
 			(effects
 				(font
@@ -7571,6 +7839,26 @@
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
 					(page "22")
+				)
+			)
+			(project ""
+				(path "/6b0acb86-62ad-49ab-8ab7-414ec416f8d7/e4dfe94c-1781-4e0e-8290-73a1da958379"
+					(page "#")
+				)
+			)
+			(project ""
+				(path "/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(page "#")
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(page "#")
+				)
+			)
+			(project ""
+				(path "/f14e2ccd-368c-4564-a2f9-aaa88b448b60/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(page "#")
 				)
 			)
 		)
@@ -7600,7 +7888,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Switch_H.kicad_sch"
+		(property "Sheetfile" "../Switch_H.kicad_sch"
 			(at 31.75 184.7346 0)
 			(effects
 				(font
@@ -7629,7 +7917,7 @@
 				(justify right)
 			)
 		)
-		(pin "~{ALERT}" output
+		(pin "PG" output
 			(at 31.75 176.53 180)
 			(uuid "fdba41c3-e874-466e-abf8-b9a2ede0489c")
 			(effects
@@ -7666,6 +7954,26 @@
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/d95d278d-1c38-4dd0-90b4-8a93da58da95"
 					(page "34")
+				)
+			)
+			(project ""
+				(path "/6b0acb86-62ad-49ab-8ab7-414ec416f8d7/e4dfe94c-1781-4e0e-8290-73a1da958379"
+					(page "#")
+				)
+			)
+			(project ""
+				(path "/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(page "#")
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(page "#")
+				)
+			)
+			(project ""
+				(path "/f14e2ccd-368c-4564-a2f9-aaa88b448b60/d1086c7a-d4c4-4ea9-a7b4-d77543f78697"
+					(page "#")
 				)
 			)
 		)

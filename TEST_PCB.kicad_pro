@@ -68,7 +68,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -100,15 +100,15 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -188,7 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2
+        0.2,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -224,6 +225,14 @@
         {
           "diameter": 0.4,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": true
@@ -496,7 +505,10 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 229, 28)",
+      "+5V": "rgb(255, 140, 25)"
+    },
     "netclass_assignments": {
       "/MCU/ADC_1": [
         "ANALOG"
@@ -768,6 +780,36 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -827,8 +869,8 @@
       "solar"
     ],
     [
-      "1752a2e4-b640-4d77-8b16-7b89e71f5920",
-      "Temp_sens_solar_cell"
+      "233e25d4-fe49-4ae7-940b-70b520d323bf",
+      "switch1"
     ],
     [
       "24296571-f4ee-420c-bcfd-9dd9216b9bef",
@@ -843,8 +885,12 @@
       "Switch_SOL_1"
     ],
     [
-      "b7b15344-d852-4d94-8b9c-7ad6d1607b83",
-      "Switch_SOL_2"
+      "9ac70773-2304-4605-b1e0-d7d1b5f027ba",
+      "ameas1"
+    ],
+    [
+      "ece1b1ed-8c15-47cc-bd7f-cf79811fa9b5",
+      "switch_c1"
     ],
     [
       "e4dfe94c-1781-4e0e-8290-73a1da958379",
@@ -863,36 +909,40 @@
       "switch_c"
     ],
     [
-      "508fc56f-a02d-42ca-801d-9d175147305c",
-      "Switch_element"
-    ],
-    [
       "504ee284-c5b3-48b9-b988-a6d19662e437",
       "ameas"
     ],
     [
-      "0a72ef8b-fc17-4425-a2e0-5d8a2bc4ee62",
-      "Switch_element"
+      "8a32eb3b-bfb3-4517-803d-1bce76a5eef6",
+      "Switch_Element"
     ],
     [
-      "0a72ef8b-fc17-4425-a2e0-5d8a2bc4ee62",
-      "Switch_element"
-    ],
-    [
-      "a88b9e0a-c05b-4a39-a917-ccbb277c1e01",
-      "Temp_sens_battery"
+      "448d4a55-23f9-42b7-804c-04dd0e577bf4",
+      "CC_Source"
     ],
     [
       "594e15f8-4e85-4fe0-b465-2b21bea5b847",
       "Switch_Batt_Heater"
     ],
     [
-      "0a72ef8b-fc17-4425-a2e0-5d8a2bc4ee62",
-      "Switch_element"
+      "8a32eb3b-bfb3-4517-803d-1bce76a5eef6",
+      "Switch_Element"
     ],
     [
-      "0a72ef8b-fc17-4425-a2e0-5d8a2bc4ee62",
-      "Switch_element"
+      "8a32eb3b-bfb3-4517-803d-1bce76a5eef6",
+      "Switch_Element"
+    ],
+    [
+      "d84c99d9-a3a0-4961-9c9f-c16045655e4a",
+      "Switch_Element"
+    ],
+    [
+      "8a32eb3b-bfb3-4517-803d-1bce76a5eef6",
+      "Switch_Element"
+    ],
+    [
+      "d84c99d9-a3a0-4961-9c9f-c16045655e4a",
+      "Switch_Element"
     ]
   ],
   "text_variables": {}
