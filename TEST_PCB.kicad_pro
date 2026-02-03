@@ -105,7 +105,7 @@
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
@@ -135,7 +135,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -147,7 +147,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -189,7 +189,8 @@
       "track_widths": [
         0.0,
         0.2,
-        0.4
+        0.4,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -443,7 +444,7 @@
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
-      "label_dangling": "error",
+      "label_dangling": "warning",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
       "lib_symbol_mismatch": "warning",
@@ -455,9 +456,9 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "warning",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -470,7 +471,7 @@
       "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
-      "wire_dangling": "error"
+      "wire_dangling": "warning"
     }
   },
   "libraries": {
@@ -500,6 +501,142 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ANALOG",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "BUS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 4.0,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 16
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAN",
+        "pcb_color": "rgb(195, 4, 191)",
+        "priority": 2,
+        "schematic_color": "rgb(195, 4, 191)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Channel",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DIGITAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ENABLES",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "I2C",
+        "pcb_color": "rgb(10, 243, 255)",
+        "priority": 6,
+        "schematic_color": "rgb(10, 243, 255)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "UART/SPI",
+        "pcb_color": "rgb(5, 199, 0)",
+        "priority": 7,
+        "schematic_color": "rgb(5, 199, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -507,13 +644,218 @@
     },
     "net_colors": {
       "+3V3": "rgb(255, 229, 28)",
-      "+5V": "rgb(255, 140, 25)"
+      "+5V": "rgb(255, 140, 25)",
+      "MCU_3V3": "rgb(164, 160, 20)"
     },
     "netclass_assignments": {
+      "/AMEAS_1": [
+        "ANALOG"
+      ],
+      "/AMEAS_10": [
+        "ANALOG"
+      ],
+      "/AMEAS_2": [
+        "ANALOG"
+      ],
+      "/AMEAS_3": [
+        "ANALOG"
+      ],
+      "/AMEAS_4": [
+        "ANALOG"
+      ],
+      "/AMEAS_5": [
+        "ANALOG"
+      ],
+      "/AMEAS_5V_1": [
+        "ANALOG"
+      ],
+      "/AMEAS_5V_2": [
+        "ANALOG"
+      ],
+      "/AMEAS_6": [
+        "ANALOG"
+      ],
+      "/AMEAS_7": [
+        "ANALOG"
+      ],
+      "/AMEAS_8": [
+        "ANALOG"
+      ],
+      "/AMEAS_9": [
+        "ANALOG"
+      ],
+      "/AMEAS_BATT": [
+        "ANALOG"
+      ],
+      "/AMEAS_BATT_1": [
+        "ANALOG"
+      ],
+      "/AMEAS_BATT_2": [
+        "ANALOG"
+      ],
+      "/AMEAS_BUS": [
+        "ANALOG"
+      ],
+      "/AMEAS_SOL_1": [
+        "ANALOG"
+      ],
+      "/AMEAS_SOL_2": [
+        "ANALOG"
+      ],
+      "/AMEAS_SOL_3": [
+        "ANALOG"
+      ],
+      "/AMEAS_SOL_4": [
+        "ANALOG"
+      ],
+      "/AMEAS_SOL_5": [
+        "ANALOG"
+      ],
+      "/AMEAS_SOL_6": [
+        "ANALOG"
+      ],
+      "/BATT_ALERT_1": [
+        "DIGITAL"
+      ],
+      "/BATT_ALERT_2": [
+        "DIGITAL"
+      ],
+      "/Ch_12V_EN_21": [
+        "ENABLES"
+      ],
+      "/Ch_12V_EN_22": [
+        "ENABLES"
+      ],
+      "/Ch_AL_1": [
+        "DIGITAL"
+      ],
+      "/Ch_AL_10": [
+        "DIGITAL"
+      ],
+      "/Ch_AL_2": [
+        "DIGITAL"
+      ],
+      "/Ch_AL_3": [
+        "DIGITAL"
+      ],
+      "/Ch_AL_4": [
+        "DIGITAL"
+      ],
+      "/Ch_AL_5": [
+        "DIGITAL"
+      ],
+      "/Ch_AL_6": [
+        "DIGITAL"
+      ],
+      "/Ch_AL_7": [
+        "DIGITAL"
+      ],
+      "/Ch_AL_8": [
+        "DIGITAL"
+      ],
+      "/Ch_AL_9": [
+        "DIGITAL"
+      ],
+      "/Ch_EN_1": [
+        "ENABLES"
+      ],
+      "/Ch_EN_101": [
+        "ENABLES"
+      ],
+      "/Ch_EN_102": [
+        "ENABLES"
+      ],
+      "/Ch_EN_11": [
+        "ENABLES"
+      ],
+      "/Ch_EN_12": [
+        "ENABLES"
+      ],
+      "/Ch_EN_2": [
+        "ENABLES"
+      ],
+      "/Ch_EN_21": [
+        "ENABLES"
+      ],
+      "/Ch_EN_22": [
+        "ENABLES"
+      ],
+      "/Ch_EN_31": [
+        "ENABLES"
+      ],
+      "/Ch_EN_32": [
+        "ENABLES"
+      ],
+      "/Ch_EN_41": [
+        "ENABLES"
+      ],
+      "/Ch_EN_42": [
+        "ENABLES"
+      ],
+      "/Ch_EN_51": [
+        "ENABLES"
+      ],
+      "/Ch_EN_52": [
+        "ENABLES"
+      ],
+      "/Ch_EN_61": [
+        "ENABLES"
+      ],
+      "/Ch_EN_62": [
+        "ENABLES"
+      ],
+      "/Ch_EN_7x": [
+        "ENABLES"
+      ],
+      "/Ch_EN_8x": [
+        "ENABLES"
+      ],
+      "/Ch_EN_91": [
+        "ENABLES"
+      ],
+      "/Ch_EN_92": [
+        "ENABLES"
+      ],
+      "/Ch_V_1": [
+        "ANALOG"
+      ],
+      "/Ch_V_2": [
+        "ANALOG"
+      ],
+      "/Ch_V_3": [
+        "ANALOG"
+      ],
+      "/Ch_V_4": [
+        "ANALOG"
+      ],
+      "/Ch_V_5": [
+        "ANALOG"
+      ],
+      "/Ch_V_6": [
+        "ANALOG"
+      ],
+      "/Ch_V_7": [
+        "ANALOG"
+      ],
+      "/Ch_V_8": [
+        "ANALOG"
+      ],
+      "/HEAT_BATT_1": [
+        "ENABLES"
+      ],
+      "/HEAT_BATT_2": [
+        "ENABLES"
+      ],
       "/MCU/ADC_1": [
         "ANALOG"
       ],
       "/MCU/ADC_2": [
+        "ANALOG"
+      ],
+      "/MCU/ALERTS": [
+        "DIGITAL"
+      ],
+      "/MCU/AMEAS": [
         "ANALOG"
       ],
       "/MCU/CAN_H": [
@@ -527,6 +869,9 @@
       ],
       "/MCU/CS_2": [
         "UART/SPI"
+      ],
+      "/MCU/Enables": [
+        "ENABLES"
       ],
       "/MCU/MISO": [
         "UART/SPI"
@@ -546,14 +891,176 @@
       "/MCU/RS422_485/C422_YZ_P": [
         "DIGITAL"
       ],
+      "/MCU/RS422_Rx_N": [
+        "DIGITAL"
+      ],
+      "/MCU/RS422_Rx_P": [
+        "DIGITAL"
+      ],
+      "/MCU/RS422_Tx_N": [
+        "DIGITAL"
+      ],
+      "/MCU/RS422_Tx_P": [
+        "DIGITAL"
+      ],
       "/MCU/RX": [
         "UART/SPI"
       ],
       "/MCU/SCK": [
         "UART/SPI"
       ],
+      "/MCU/TMEAS": [
+        "ANALOG"
+      ],
       "/MCU/TX": [
         "UART/SPI"
+      ],
+      "/MCU/VMEAS": [
+        "ANALOG"
+      ],
+      "/MCU/{ALERTS}": [
+        "DIGITAL"
+      ],
+      "/MCU/{AMEAS}": [
+        "ANALOG"
+      ],
+      "/MCU/{Enables}": [
+        "ENABLES"
+      ],
+      "/MCU/{TMEAS}": [
+        "ANALOG"
+      ],
+      "/MCU/{VMEAS}": [
+        "ANALOG"
+      ],
+      "/MPPT_~{EN}": [
+        "ENABLES"
+      ],
+      "/SOL_EN_1": [
+        "ENABLES"
+      ],
+      "/SOL_EN_2": [
+        "ENABLES"
+      ],
+      "/SOL_EN_3": [
+        "ENABLES"
+      ],
+      "/SOL_EN_4": [
+        "ENABLES"
+      ],
+      "/SOL_EN_5": [
+        "ENABLES"
+      ],
+      "/SOL_EN_6": [
+        "ENABLES"
+      ],
+      "/SOL_STAT_1": [
+        "DIGITAL"
+      ],
+      "/SOL_STAT_2": [
+        "DIGITAL"
+      ],
+      "/SOL_TGGL_1": [
+        "ENABLES"
+      ],
+      "/SOL_TGGL_2": [
+        "ENABLES"
+      ],
+      "/SOL_TGGL_3": [
+        "ENABLES"
+      ],
+      "/SW_BATT": [
+        "ENABLES"
+      ],
+      "/SW_BATT_11": [
+        "ENABLES"
+      ],
+      "/SW_BATT_12": [
+        "ENABLES"
+      ],
+      "/SW_BATT_21": [
+        "ENABLES"
+      ],
+      "/SW_BATT_22": [
+        "ENABLES"
+      ],
+      "/SW_BUS": [
+        "ENABLES"
+      ],
+      "/TMEAS_BATT_1": [
+        "ANALOG"
+      ],
+      "/TMEAS_BATT_2": [
+        "ANALOG"
+      ],
+      "/TMEAS_Chr_1": [
+        "ANALOG"
+      ],
+      "/TMEAS_Chr_2": [
+        "ANALOG"
+      ],
+      "/TMEAS_SOL_1": [
+        "ANALOG"
+      ],
+      "/TMEAS_SOL_2": [
+        "ANALOG"
+      ],
+      "/TMEAS_SOL_3": [
+        "ANALOG"
+      ],
+      "/TMEAS_SOL_4": [
+        "ANALOG"
+      ],
+      "/TMEAS_SOL_5": [
+        "ANALOG"
+      ],
+      "/TMEAS_SOL_6": [
+        "ANALOG"
+      ],
+      "/VMEAS_BATT_1": [
+        "ANALOG"
+      ],
+      "/VMEAS_BATT_2": [
+        "ANALOG"
+      ],
+      "/VMEAS_SOL_1": [
+        "ANALOG"
+      ],
+      "/VMEAS_SOL_2": [
+        "ANALOG"
+      ],
+      "/VMEAS_SOL_3": [
+        "ANALOG"
+      ],
+      "/VMEAS_SOL_4": [
+        "ANALOG"
+      ],
+      "/VMEAS_SOL_5": [
+        "ANALOG"
+      ],
+      "/VMEAS_SOL_6": [
+        "ANALOG"
+      ],
+      "/battery/SCL": [
+        "I2C"
+      ],
+      "/battery/SDA": [
+        "I2C"
+      ],
+      "/{ALERTS}": [
+        "DIGITAL"
+      ],
+      "/{AMEAS}": [
+        "ANALOG"
+      ],
+      "/{Enables}": [
+        "ENABLES"
+      ],
+      "/{TMEAS}": [
+        "ANALOG"
+      ],
+      "/{VMEAS}": [
+        "ANALOG"
       ],
       "SCL": [
         "I2C"
@@ -562,7 +1069,60 @@
         "I2C"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "ANALOG",
+        "pattern": "{TMEAS}"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "{AMEAS}"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "BUS",
+        "pattern": "BUS"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN_L"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN_H"
+      },
+      {
+        "netclass": "ENABLES",
+        "pattern": "{ENABLES}"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "SCL"
+      },
+      {
+        "netclass": "UART/SPI",
+        "pattern": "TX"
+      },
+      {
+        "netclass": "UART/SPI",
+        "pattern": "RX"
+      },
+      {
+        "netclass": "UART/SPI",
+        "pattern": "TxD"
+      },
+      {
+        "netclass": "UART/SPI",
+        "pattern": "RxD"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -826,9 +1386,9 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "intersheets_ref_own_page": false,
+      "intersheets_ref_own_page": true,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
+      "intersheets_ref_short": true,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
@@ -869,20 +1429,20 @@
       "solar"
     ],
     [
-      "233e25d4-fe49-4ae7-940b-70b520d323bf",
-      "switch1"
+      "591fb6d7-fa0b-4828-8f5f-2b4a43bbf0dc",
+      "5V_DCDC_1"
     ],
     [
-      "24296571-f4ee-420c-bcfd-9dd9216b9bef",
-      "AMEAS_1"
+      "6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c",
+      "RS422_485"
     ],
     [
-      "1f891ebf-411f-4134-a582-57bcfd236e7f",
-      "dcdc1"
+      "f372b097-c94b-4e63-a97a-bb43e24599a8",
+      "CC_SOURCE_SIMPLE"
     ],
     [
-      "50b5827b-91e2-4f95-b489-8fc588047e5c",
-      "Switch_SOL_1"
+      "41997ee6-fe7d-4257-91cc-69e8fbc1fd10",
+      "Switch_Batt_Heater"
     ],
     [
       "9ac70773-2304-4605-b1e0-d7d1b5f027ba",
@@ -905,31 +1465,27 @@
       "dcdc"
     ],
     [
-      "877eed00-5750-4f47-bd20-90566d489da0",
-      "switch_c"
+      "59fca87d-eab6-4325-93c7-8130e49f891e",
+      "MCU"
     ],
     [
       "504ee284-c5b3-48b9-b988-a6d19662e437",
       "ameas"
     ],
     [
-      "8a32eb3b-bfb3-4517-803d-1bce76a5eef6",
-      "Switch_Element"
+      "48f56152-ddff-4748-946d-910b3dd705cd",
+      "UniversalSwitch"
     ],
     [
-      "448d4a55-23f9-42b7-804c-04dd0e577bf4",
-      "CC_Source"
+      "24296571-f4ee-420c-bcfd-9dd9216b9bef",
+      "AMEAS_1"
     ],
     [
-      "594e15f8-4e85-4fe0-b465-2b21bea5b847",
-      "Switch_Batt_Heater"
+      "50b5827b-91e2-4f95-b489-8fc588047e5c",
+      "Switch_SOL_1"
     ],
     [
-      "8a32eb3b-bfb3-4517-803d-1bce76a5eef6",
-      "Switch_Element"
-    ],
-    [
-      "8a32eb3b-bfb3-4517-803d-1bce76a5eef6",
+      "59e333ca-3e28-4c4d-a00b-6aa77b55a257",
       "Switch_Element"
     ],
     [
@@ -937,11 +1493,11 @@
       "Switch_Element"
     ],
     [
-      "8a32eb3b-bfb3-4517-803d-1bce76a5eef6",
+      "59e333ca-3e28-4c4d-a00b-6aa77b55a257",
       "Switch_Element"
     ],
     [
-      "d84c99d9-a3a0-4961-9c9f-c16045655e4a",
+      "59e333ca-3e28-4c4d-a00b-6aa77b55a257",
       "Switch_Element"
     ]
   ],

@@ -14363,6 +14363,109 @@
 		)
 	)
 	(sheet
+		(at 156.21 16.51)
+		(size 15.24 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de7fc528-e990-41c1-895c-f423d7320cf5")
+		(property "Sheetname" "Universal_switch"
+			(at 156.21 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../UniversalSwitch.kicad_sch"
+			(at 156.21 31.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "AMEAS" output
+			(at 171.45 25.4 0)
+			(uuid "c548e8dc-5160-4588-919e-9b9cc5bba46b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_1" input
+			(at 156.21 25.4 180)
+			(uuid "9fd99d92-88a7-4209-bfbe-c0f170734c3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_2" input
+			(at 156.21 27.94 180)
+			(uuid "628cbba4-7c85-4b11-ab65-3f1846cdedb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG" output
+			(at 156.21 22.86 180)
+			(uuid "1a87bfaf-3292-4e01-9878-c24d49329375")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 156.21 19.05 180)
+			(uuid "c59d7ea8-b425-4c82-969b-79cac68fcd56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" output
+			(at 171.45 19.05 0)
+			(uuid "c4a25cd1-19da-48bc-96f4-e9120cf10e4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc"
+					(page "68")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 173.99 96.52)
 		(size 12.7 13.97)
 		(exclude_from_sim no)
