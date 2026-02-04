@@ -4074,124 +4074,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 135.89 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "050ebcf0-22e3-42ca-8119-8d405d16a095")
-		(property "Reference" "L302"
-			(at 135.89 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SELECT"
-			(at 135.89 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
-			(at 135.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 135.89 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f48d12b7-ccf6-4aee-91b2-8150e5dff146")
-		)
-		(pin "2"
-			(uuid "1698d6ed-89c0-49a2-9994-8079beecf24b")
-		)
-		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/ab9854e7-c9d1-48ce-8906-c016083b51c2"
-					(reference "L1202")
-					(unit 1)
-				)
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/591fb6d7-fa0b-4828-8f5f-2b4a43bbf0dc"
-					(reference "L302")
-					(unit 1)
-				)
-			)
-			(project "EPS_CORE"
-				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/591fb6d7-fa0b-4828-8f5f-2b4a43bbf0dc"
-					(reference "L?")
-					(unit 1)
-				)
-			)
-			(project "EPS"
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/0a6a38f5-f1fa-4783-be04-d08625b52ef4"
-					(reference "L3002")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/60831aa8-2fd3-4f26-86cf-bb066e732cb3"
-					(reference "L3102")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/6931fe57-8e65-4211-9bc6-ecb270a394b8"
-					(reference "L3202")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/a2a2e8b0-eb98-4edc-81c6-6014879aa93c"
-					(reference "L4202")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/591fb6d7-fa0b-4828-8f5f-2b4a43bbf0dc"
-					(reference "L8702")
-					(unit 1)
-				)
-			)
-			(project "EPS_OUTPUT_CHANNELS"
-				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/0a6a38f5-f1fa-4783-be04-d08625b52ef4"
-					(reference "L8002")
-					(unit 1)
-				)
-				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/60831aa8-2fd3-4f26-86cf-bb066e732cb3"
-					(reference "L8102")
-					(unit 1)
-				)
-				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/6931fe57-8e65-4211-9bc6-ecb270a394b8"
-					(reference "L8202")
-					(unit 1)
-				)
-				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/a2a2e8b0-eb98-4edc-81c6-6014879aa93c"
-					(reference "L9202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 168.91 86.36 0)
 		(unit 1)
@@ -7065,6 +6947,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Small")
+		(at 135.89 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "734fbf41-6c36-425c-929a-30a7e0163491")
+		(property "Reference" "L302"
+			(at 135.89 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6.8uH"
+			(at 135.89 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/3/40/1/SRR1260A.pdf"
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SRR1260A-6R8Y"
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b91ed929-e190-4630-a4d5-6951beef8944")
+		)
+		(pin "2"
+			(uuid "7d8bd85e-2dfc-404e-a38d-cbacd76d16f6")
+		)
+		(instances
+			(project "TEST_PCB"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/ab9854e7-c9d1-48ce-8906-c016083b51c2"
+					(reference "L1101")
+					(unit 1)
+				)
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/591fb6d7-fa0b-4828-8f5f-2b4a43bbf0dc"
+					(reference "L302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Switching:TPS62933")
 		(at 113.03 69.85 0)
 		(unit 1)
@@ -7803,7 +7757,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fa96340-ed50-4e32-89a7-3f03bb6f0d65")
 		(property "Reference" "L301"
@@ -7814,7 +7768,7 @@
 				)
 			)
 		)
-		(property "Value" "SELECT"
+		(property "Value" "6.8uH"
 			(at 135.89 67.31 90)
 			(effects
 				(font
@@ -7822,7 +7776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
 			(at 135.89 69.85 0)
 			(effects
 				(font
@@ -7831,7 +7785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/datasheet/3/40/1/SRR1260A.pdf"
 			(at 135.89 69.85 0)
 			(effects
 				(font
@@ -7840,7 +7794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" "SRR1260A-6R8Y"
 			(at 135.89 69.85 0)
 			(effects
 				(font
