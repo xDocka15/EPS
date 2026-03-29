@@ -1502,18 +1502,7 @@
 			)
 			(justify left)
 		)
-		(uuid "2b808e7b-9163-4316-b4ba-212e41671581")
-	)
-	(hierarchical_label "B_N"
-		(shape bidirectional)
-		(at 219.71 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5dadbd34-abe1-4d9a-b59d-31cf1ab931a1")
+		(uuid "3000a98e-8d94-4493-89c8-d6978ed88ed6")
 	)
 	(hierarchical_label "Z_N"
 		(shape bidirectional)
@@ -1524,18 +1513,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9ca5780a-e80f-4a22-9acf-a9da313ad756")
-	)
-	(hierarchical_label "UART_DIR"
-		(shape input)
-		(at 127 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e8a0383-0b6d-4b22-8ec8-795a22600301")
+		(uuid "3cba8053-62f8-4c88-9cd3-ecaf80a075d8")
 	)
 	(hierarchical_label "UART_TX"
 		(shape input)
@@ -1546,18 +1524,18 @@
 			)
 			(justify right)
 		)
-		(uuid "aeb2e62f-6d38-4343-a180-2219c33eebac")
+		(uuid "477c4bfa-c101-462e-bac9-fbe2ac433ef4")
 	)
-	(hierarchical_label "A_P"
-		(shape bidirectional)
-		(at 219.71 96.52 0)
+	(hierarchical_label "UART_DIR"
+		(shape input)
+		(at 127 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e1c29e18-1ae9-4562-8722-4162f0cf5fd9")
+		(uuid "a820316f-e1a9-486a-8c5b-a1a3db4a246f")
 	)
 	(hierarchical_label "Input"
 		(shape input)
@@ -1568,7 +1546,7 @@
 			)
 			(justify right)
 		)
-		(uuid "effc7de5-8dc7-4809-86bf-0bdc28c39999")
+		(uuid "b8fa0560-fa46-46f6-83a0-d916470ab71c")
 	)
 	(hierarchical_label "UART_RX"
 		(shape output)
@@ -1579,234 +1557,29 @@
 			)
 			(justify right)
 		)
-		(uuid "fc3ac2f8-ddec-4a93-9396-2790bc0028a7")
+		(uuid "bdc433a6-8dde-4a5d-b626-5f25ad174282")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 121.92 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04544957-9826-45d2-9492-60b42bfcff55")
-		(property "Reference" "#PWR"
-			(at 176.53 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(hierarchical_label "A_P"
+		(shape bidirectional)
+		(at 219.71 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "GND"
-			(at 176.53 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "197bf85e-5395-4566-a4bb-421c1b87a869")
-		)
-		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "#PWR01004")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d4d66f12-e830-4ff0-8b17-400457fa361e")
 	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 142.24 115.57 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3dcbd4b9-d5e2-4611-9cf4-6d573f93ae91")
-		(property "Reference" "R"
-			(at 139.7 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+	(hierarchical_label "B_N"
+		(shape bidirectional)
+		(at 219.71 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "100k"
-			(at 139.7 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Config" ""
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF_PN" "RP0603DRD07100KL"
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 142.24 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "291317d0-7cea-4d95-b760-009f1e547663")
-		)
-		(pin "2"
-			(uuid "332825f1-63e9-4a09-a22c-e7c31aeb97ae")
-		)
-		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "R1001")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 110.49 102.87 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56e90564-30b6-45ca-81ac-a83ae36d0068")
-		(property "Reference" "#PWR"
-			(at 110.49 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 110.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48edc8aa-5935-4a6d-ab2e-57b02a824844")
-		)
-		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "#PWR01001")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f8a0b792-7da9-457d-9e16-a9484308e006")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -1816,8 +1589,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "65fa9a3b-2e59-4903-b717-a32056e916fe")
-		(property "Reference" "R"
+		(uuid "197bbcd1-372c-4d88-9878-e4ac8f2a9434")
+		(property "Reference" "R405"
 			(at 208.28 97.7899 0)
 			(effects
 				(font
@@ -1835,7 +1608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 205.74 99.06 0)
 			(effects
 				(font
@@ -1888,275 +1661,55 @@
 				(hide yes)
 			)
 		)
+		(property "CONFIG" ""
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser_pn" ""
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "4c5746fe-178a-4e18-be27-6915384e9881")
+			(uuid "63ce2917-d6b2-4c9d-877c-aab4311a26f3")
 		)
 		(pin "2"
-			(uuid "a045b784-1c5a-4557-ac21-3b4f1a850760")
+			(uuid "216bb977-7fff-447d-b089-cab8ee0e1854")
 		)
 		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "R1005")
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R405")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72f28e83-4bfb-4f8a-9850-f6010a9b821b")
-		(property "Reference" "#PWR"
-			(at 142.24 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f0ae81d-5ddc-4c15-9740-849cb6d39023")
-		)
-		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "#PWR01003")
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R?")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 133.35 101.6 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "7ce5829e-18c0-45f0-8813-a1fcfba184f9")
-		(property "Reference" "JP"
-			(at 130.81 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Config" ""
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF_PN" "ERJ-3GEY0R00V"
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 133.35 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f8e87ae-1c88-437a-8859-9df1e919c1ce")
-		)
-		(pin "2"
-			(uuid "b47eccdd-85a7-4d9e-a4f0-3aa51ef929b6")
-		)
-		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "JP1002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 176.53 86.36 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84aa596d-a602-44fd-bc10-e340c59b5f94")
-		(property "Reference" "R"
-			(at 173.99 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 173.99 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 176.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Config" ""
-			(at 176.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF_PN" ""
-			(at 176.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 176.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cf5b150-9e61-4314-9faf-809bcd13927b")
-		)
-		(pin "2"
-			(uuid "bb2da3a6-df20-4513-9edd-096a22f7dd3e")
-		)
-		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "R1004")
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R8805")
 					(unit 1)
 				)
 			)
@@ -2171,8 +1724,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "86f479f0-a146-4020-8eb5-87d6115cdd27")
-		(property "Reference" "R"
+		(uuid "229398f7-1598-498a-b833-66e483286bff")
+		(property "Reference" "R403"
 			(at 163.83 85.725 0)
 			(effects
 				(font
@@ -2190,7 +1743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 166.37 86.36 0)
 			(effects
 				(font
@@ -2243,81 +1796,55 @@
 				(hide yes)
 			)
 		)
+		(property "CONFIG" ""
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser_pn" ""
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "177e2934-1219-43b8-b7b0-8d0a921b8d4a")
+			(uuid "54077c42-641b-4fc3-b033-d5df84347631")
 		)
 		(pin "2"
-			(uuid "fb294fa0-363a-4744-a756-bea73d5c671b")
+			(uuid "6ad0139c-36f5-4fdf-a0a8-ef0774139199")
 		)
 		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "R1003")
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R403")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 139.7 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a65e4846-f4e7-4aae-9c19-bd6a2bb62b00")
-		(property "Reference" "#PWR"
-			(at 139.7 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R?")
+					(unit 1)
 				)
 			)
-		)
-		(property "Footprint" ""
-			(at 139.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60a8348a-ceb3-4fc2-b3cb-b9cdc82ff980")
-		)
-		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "#PWR01002")
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R8803")
 					(unit 1)
 				)
 			)
@@ -2333,8 +1860,8 @@
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "ac7e5064-3651-4514-9d85-a5e98959950e")
-		(property "Reference" "JP"
+		(uuid "2585f8ef-310e-4102-a1ab-7288764e62f2")
+		(property "Reference" "JP401"
 			(at 121.92 91.44 90)
 			(effects
 				(font
@@ -2350,7 +1877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 121.92 96.52 0)
 			(effects
 				(font
@@ -2403,16 +1930,830 @@
 				(hide yes)
 			)
 		)
+		(property "CONFIG" ""
+			(at 121.92 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 121.92 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser_pn" ""
+			(at 121.92 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "ca4a4352-36f4-4a3f-8239-32bc254a1cee")
+			(uuid "72405372-c3eb-4ec5-8c3e-b8645f6d9637")
 		)
 		(pin "2"
-			(uuid "1b11fc9f-83f1-4831-b5f3-d103641015f0")
+			(uuid "84f843ee-ada2-4d5a-86ee-ee8f73b52202")
 		)
 		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "JP1001")
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "JP401")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "JP?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "JP8801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41e06f74-6d9d-4aa9-9de2-5b59c19ae634")
+		(property "Reference" "#PWR0403"
+			(at 142.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad250256-4a2f-496b-b287-bd75fd876c4d")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR0403")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR08803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 139.7 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c04a023-3072-4d03-8089-979dc45715eb")
+		(property "Reference" "C401"
+			(at 137.16 80.0035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 137.16 82.5435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF_PN" "KAF15AR71H104KT"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser_pn" ""
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3e7ff5c-f9d3-407c-81bb-e2b2b1878f35")
+		)
+		(pin "2"
+			(uuid "5b460308-31f1-4a68-af7d-01a46019e110")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "C401")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "C8801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 151.13 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60ff546d-d544-4bac-b49d-234f54feb702")
+		(property "Reference" "R402"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF_PN" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser_pn" ""
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ee7dc19-8873-4289-b823-e56938c3e6d4")
+		)
+		(pin "2"
+			(uuid "28cd45b8-abfb-4e14-8a99-309c4a968966")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R402")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R8802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65fa0d47-54e5-4803-a43a-a546b4b0814c")
+		(property "Reference" "#PWR0405"
+			(at 189.23 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7ae1d03-5df8-453e-a06b-848efea87985")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR0405")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR08805")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 176.53 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67cfa2e1-9ca2-486e-b691-40e52d05f8b3")
+		(property "Reference" "R404"
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF_PN" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser_pn" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76fcf1a3-beb6-4d6b-b8e6-06da74114714")
+		)
+		(pin "2"
+			(uuid "6a4720d2-0ad4-494d-88e3-89e7d7332558")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R404")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R8804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 102.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dd103ee-3464-44e1-8162-10c2dd7faedc")
+		(property "Reference" "#PWR0401"
+			(at 110.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4e466d9-8015-4e3f-bf91-f0a3a91a2cb7")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR0401")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR08801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 142.24 115.57 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f93d2cd-1bac-407e-b640-4ae7723a71a2")
+		(property "Reference" "R401"
+			(at 139.7 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 139.7 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF_PN" "RP0603DRD07100KL"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser_pn" ""
+			(at 142.24 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa56f6c0-e544-462c-8275-e593957cab05")
+		)
+		(pin "2"
+			(uuid "ea940ce3-b0d6-4ab9-8395-3caf53651aa1")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R401")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R8801")
 					(unit 1)
 				)
 			)
@@ -2427,8 +2768,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0c05242-e8c3-4b86-8260-5e79f3daee8f")
-		(property "Reference" "U"
+		(uuid "71302877-1b9f-4a1a-b5db-868c73a8ae28")
+		(property "Reference" "U401"
 			(at 190.1541 86.36 0)
 			(effects
 				(font
@@ -2499,61 +2840,100 @@
 				(hide yes)
 			)
 		)
+		(property "CONFIG" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser_pn" ""
+			(at 187.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "1178611e-aa03-4ba2-8567-11f41fecd17e")
+			(uuid "d9503031-d591-4d69-8a58-26a07d92e3be")
 		)
 		(pin "10"
-			(uuid "9bcbd656-4140-4805-ac41-5faa40555778")
+			(uuid "266c4153-313e-4bbf-bf06-8fcfe4168d1a")
 		)
 		(pin "11"
-			(uuid "ddbffbd7-6d2a-41fd-bed6-cd2449157ad5")
+			(uuid "dc075f67-b3ff-467d-8409-6bdcacf590d1")
 		)
 		(pin "12"
-			(uuid "6c727903-5d65-4997-a05a-4ffc56b3664f")
+			(uuid "93b7ff62-097a-493d-8710-a5bfe45e174e")
 		)
 		(pin "13"
-			(uuid "ddd9b977-c760-4024-9360-f601afe99c7f")
+			(uuid "ac478836-00a3-41c1-88a2-70e6789ce39e")
 		)
 		(pin "14"
-			(uuid "eac85f8a-bd77-4a02-bfe0-bbd0bf693bcd")
+			(uuid "603d7948-1476-4b91-9e4d-39808abe9c73")
 		)
 		(pin "15"
-			(uuid "12496bc7-15cf-4c53-9052-b6e1897baa9b")
+			(uuid "db7a068d-129b-4547-84c9-5c71baf80760")
 		)
 		(pin "16"
-			(uuid "580e724e-2443-4107-82ba-54b2f45126c1")
+			(uuid "fb548fdd-6a30-4046-87a1-3f3b9ea971c1")
 		)
 		(pin "17"
-			(uuid "6bc6ba0c-5ae0-49cb-a49a-284fa7108c34")
+			(uuid "de9ad9f0-3d1b-4bde-99fb-232f4b9131ac")
 		)
 		(pin "2"
-			(uuid "02989e6e-5cbd-4e24-8642-7a57dafefef3")
+			(uuid "7a2cefca-40ac-4ce2-a30c-ba16d4f94434")
 		)
 		(pin "3"
-			(uuid "14c3f83b-99fc-4566-9cc6-ac9d90a2382d")
+			(uuid "ab79f6d9-2e01-41a3-8ca2-416681b10ae1")
 		)
 		(pin "4"
-			(uuid "2984f916-37dd-4ceb-b317-c78eb69b8f9e")
+			(uuid "628ea5ac-c802-42fe-9588-48138a3a69a6")
 		)
 		(pin "5"
-			(uuid "099149f8-1652-4028-8847-055fba3bfdb3")
+			(uuid "031c81d2-9444-476e-8508-26aee53a4244")
 		)
 		(pin "6"
-			(uuid "1e788e7a-194a-4a2a-b709-d980148bcda4")
+			(uuid "4b3b9b39-0f28-46a1-bb83-0f328f88453c")
 		)
 		(pin "7"
-			(uuid "c7cccac3-295e-4999-a4fb-c23071ae90ef")
+			(uuid "bc64b26f-4a90-4a96-adb6-e865285f2034")
 		)
 		(pin "8"
-			(uuid "c0a3a97c-37b4-4c39-9181-fb669f81809e")
+			(uuid "40070ed7-0d98-4e7e-84c6-70e50cee9e83")
 		)
 		(pin "9"
-			(uuid "2eef17e4-4165-430a-a3bc-bbc230696238")
+			(uuid "ce4dd8df-a53a-4615-8d4c-16dfd1c1b4dc")
 		)
 		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "U1001")
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "U401")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "U8801")
 					(unit 1)
 				)
 			)
@@ -2561,16 +2941,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 121.92 0)
+		(at 176.53 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ca964662-2e43-4808-af16-930fa4d18b4e")
-		(property "Reference" "#PWR"
-			(at 189.23 128.27 0)
+		(uuid "a3b68690-2af7-4ee2-9fbc-f55cd87ff085")
+		(property "Reference" "#PWR0404"
+			(at 176.53 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2959,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 125.73 0)
+			(at 176.53 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 121.92 0)
+			(at 176.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +2976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 121.92 0)
+			(at 176.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2985,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 121.92 0)
+			(at 176.53 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,12 +2993,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e0846ec-3d69-4d9e-b4e0-118e881c14d3")
+			(uuid "cac646f4-7d13-4768-ac9b-d80df927dede")
 		)
 		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "#PWR01005")
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR0404")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR08804")
 					(unit 1)
 				)
 			)
@@ -2632,8 +3024,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d84faa10-b775-4095-9987-af115977738f")
-		(property "Reference" "R"
+		(uuid "af495a9d-587d-4e21-a149-bc800a57f5a5")
+		(property "Reference" "R406"
 			(at 208.28 107.9499 0)
 			(effects
 				(font
@@ -2651,7 +3043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 205.74 109.22 0)
 			(effects
 				(font
@@ -2704,16 +3096,132 @@
 				(hide yes)
 			)
 		)
+		(property "CONFIG" ""
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser_pn" ""
+			(at 205.74 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9a54b212-6290-4d0c-9975-1631883449c8")
+			(uuid "cca66653-4b8c-47e2-8b25-77a6c4ce7b9d")
 		)
 		(pin "2"
-			(uuid "2de65f1e-26a6-49bc-8f43-2c47abf12fe7")
+			(uuid "11c0a0ed-57b9-4501-9c99-7998a38a0fd0")
 		)
 		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "R1006")
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R406")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "R8806")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 83.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b19b726f-f4c6-43d3-97f7-b5591df43004")
+		(property "Reference" "#PWR0402"
+			(at 139.7 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5cbb7d0-3d2d-4947-ac6b-d1d8e774f5d2")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR0402")
+					(unit 1)
+				)
+			)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "#PWR08802")
 					(unit 1)
 				)
 			)
@@ -2721,17 +3229,17 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 151.13 86.36 0)
+		(at 133.35 101.6 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "f0bdbbf3-65dc-4ec9-9e52-93611c5dee14")
-		(property "Reference" "R"
-			(at 148.59 85.09 0)
+		(uuid "bd96caae-d916-4549-8aa6-bb65cfc3bd7d")
+		(property "Reference" "JP402"
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,8 +3247,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 148.59 87.63 0)
+		(property "Value" "0R"
+			(at 130.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,8 +3256,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 151.13 86.36 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +3266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 86.36 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +3275,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 86.36 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +3283,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 151.13 86.36 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,8 +3291,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF_PN" ""
-			(at 151.13 86.36 0)
+		(property "MF_PN" "ERJ-3GEY0R00V"
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,8 +3300,35 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 151.13 86.36 0)
+		(property "Manufacturer" "Panasonic"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specification" ""
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser_pn" ""
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,112 +3337,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec97a366-3267-4a8f-9ec9-a95d30a57799")
+			(uuid "7193411b-46f8-4a20-9a9a-351e926e326a")
 		)
 		(pin "2"
-			(uuid "f7cb0fea-b2ff-4031-b1b4-87c46ed315fc")
+			(uuid "710f5e2a-c9b8-4c21-80e2-2361340e4ecf")
 		)
 		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "R1002")
+			(project "EPS_CORE"
+				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/59fca87d-eab6-4325-93c7-8130e49f891e/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "JP402")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 139.7 81.28 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffa74868-8670-4b56-b08e-154c459eb057")
-		(property "Reference" "C"
-			(at 137.16 80.0035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 137.16 82.5435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 139.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "JP?")
+					(unit 1)
 				)
 			)
-		)
-		(property "Config" ""
-			(at 139.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF_PN" "KAF15AR71H104KT"
-			(at 139.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KYOCERA AVX"
-			(at 139.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e33fab49-0a7b-4417-83a8-95155591def6")
-		)
-		(pin "2"
-			(uuid "4dc66740-b4e0-404e-8fb6-f36ab41f1752")
-		)
-		(instances
-			(project "TEST_PCB"
-				(path "/29496ace-b476-4f24-a65f-9da1dd70122c/3917d7ef-211e-46e0-b3be-0af8f01be35a/d6499537-8df6-4a5a-92df-5b43e72050a8"
-					(reference "C1001")
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/ce55ed75-3d20-4bd3-84d2-d62dbd0d02de/6fcf384b-60b0-45a5-8dc1-cf23d8e5c23c"
+					(reference "JP8802")
 					(unit 1)
 				)
 			)
