@@ -507,6 +507,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -524,6 +525,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -541,6 +543,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -558,6 +561,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -575,6 +579,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -592,6 +597,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -609,6 +615,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -626,6 +633,7 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -719,9 +727,6 @@
       ],
       "/BATT_ALERT_2": [
         "DIGITAL"
-      ],
-      "/BATT_BOOT": [
-        "ENABLES"
       ],
       "/Ch_12V_EN_21": [
         "ENABLES"
@@ -862,12 +867,15 @@
         "CAN"
       ],
       "/MCU/CS_1": [
+        "SPI",
         "UART/SPI"
       ],
       "/MCU/MISO": [
+        "SPI",
         "UART/SPI"
       ],
       "/MCU/MOSI": [
+        "SPI",
         "UART/SPI"
       ],
       "/MCU/RS422_Rx_N": [
@@ -886,6 +894,7 @@
         "UART/SPI"
       ],
       "/MCU/SCK": [
+        "SPI",
         "UART/SPI"
       ],
       "/MCU/TX": [
