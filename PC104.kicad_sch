@@ -2075,22 +2075,10 @@
 		)
 	)
 	(junction
-		(at 173.99 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69507b74-e682-46a0-8bcb-122952980de9")
-	)
-	(junction
 		(at 167.64 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d75d17d-b4ba-43d1-8d6d-322bb1f0874c")
-	)
-	(junction
-		(at 179.07 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa266d00-f01b-4aad-b2bb-d7c95391320e")
 	)
 	(no_connect
 		(at 101.6 69.85)
@@ -2482,16 +2470,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 64.77) (xy 154.94 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cdd2274-5329-4110-b030-5a7682fa9d51")
-	)
-	(wire
-		(pts
 			(xy 78.74 90.17) (xy 81.28 90.17)
 		)
 		(stroke
@@ -2509,6 +2487,26 @@
 			(type default)
 		)
 		(uuid "338eab0c-1277-49fb-aaa0-82486b19a0c3")
+	)
+	(wire
+		(pts
+			(xy 152.4 67.31) (xy 154.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3894558a-d8ea-4051-b49f-6e4a16c78f04")
+	)
+	(wire
+		(pts
+			(xy 170.18 67.31) (xy 167.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395c7a3f-d976-49a6-939c-96ab1e152ac9")
 	)
 	(wire
 		(pts
@@ -2532,7 +2530,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 67.31) (xy 167.64 67.31)
+			(xy 179.07 67.31) (xy 175.26 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2572,7 +2570,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 67.31) (xy 154.94 67.31)
+			(xy 153.67 64.77) (xy 154.94 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687cfe5e-7b9a-4917-a72b-b04da21c9da0")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 147.32 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2612,13 +2620,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 64.77) (xy 167.64 64.77)
+			(xy 148.59 63.5) (xy 148.59 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf4cc4bf-a314-41cd-b046-3273c38e6407")
+		(uuid "c4885773-ce68-4cd0-8bd9-0417812effbc")
 	)
 	(wire
 		(pts
@@ -2629,6 +2637,16 @@
 			(type default)
 		)
 		(uuid "c555e62f-27c7-43e4-a7fa-c0b2506ae6c0")
+	)
+	(wire
+		(pts
+			(xy 168.91 64.77) (xy 167.64 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ca2dd3-cf1f-4fca-84c0-5522a8400236")
 	)
 	(image
 		(at 353.06 64.77)
@@ -4504,166 +4522,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 173.99 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b32f6da-ca9e-43bc-9822-c80b553e554a")
-		(property "Reference" "#PWR0333"
-			(at 173.99 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 173.99 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 173.99 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17bee128-d7cc-4cc5-a18e-2f6b245462ee")
-		)
-		(instances
-			(project "EPS_CORE"
-				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR0333")
-					(unit 1)
-				)
-			)
-			(project "EPS"
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/1b55637f-38d8-4875-b10a-e14f6143e237"
-					(reference "#PWR04607")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR04907")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/c37f0a0b-f6f4-4c63-8ce8-6ee6766e791f/9fcf84f4-191c-4d72-8cc3-f7c5dd77735c"
-					(reference "#PWR04807")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 179.07 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ee882bf-471c-4afb-805c-fac13c937063")
-		(property "Reference" "#PWR0329"
-			(at 179.07 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9649770b-0602-49d7-82ff-808e29c85528")
-		)
-		(instances
-			(project "EPS_CORE"
-				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR0329")
-					(unit 1)
-				)
-			)
-			(project "EPS"
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/1b55637f-38d8-4875-b10a-e14f6143e237"
-					(reference "#PWR04611")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR04911")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/c37f0a0b-f6f4-4c63-8ce8-6ee6766e791f/9fcf84f4-191c-4d72-8cc3-f7c5dd77735c"
-					(reference "#PWR04811")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 143.51 67.31 0)
 		(unit 1)
@@ -5220,7 +5078,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 148.59 64.77 0)
+		(at 148.59 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5229,7 +5087,7 @@
 		(fields_autoplaced yes)
 		(uuid "86f490c2-f152-4f7a-9c5c-4d1cc0d785f0")
 		(property "Reference" "#PWR0336"
-			(at 148.59 68.58 0)
+			(at 148.59 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +5096,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 148.59 59.69 0)
+			(at 148.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 64.77 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 64.77 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +5122,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 64.77 0)
+			(at 148.59 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,166 +5237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 143.51 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8daad05e-1ce4-47e7-9bd7-45d8ea9737ef")
-		(property "Reference" "#PWR0338"
-			(at 143.51 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 143.51 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "627cc463-54e8-4866-9fe4-aee7fa772754")
-		)
-		(instances
-			(project "EPS_CORE"
-				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR0338")
-					(unit 1)
-				)
-			)
-			(project "EPS"
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/1b55637f-38d8-4875-b10a-e14f6143e237"
-					(reference "#PWR04603")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR04903")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/c37f0a0b-f6f4-4c63-8ce8-6ee6766e791f/9fcf84f4-191c-4d72-8cc3-f7c5dd77735c"
-					(reference "#PWR04803")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 179.07 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6d45b51-068e-44de-91c5-30295b2afdc0")
-		(property "Reference" "#PWR0330"
-			(at 179.07 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 179.07 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 179.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8f19bd8-c791-48ae-abad-fe97910ecc19")
-		)
-		(instances
-			(project "EPS_CORE"
-				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR0330")
-					(unit 1)
-				)
-			)
-			(project "EPS"
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/1b55637f-38d8-4875-b10a-e14f6143e237"
-					(reference "#PWR04609")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR04909")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/c37f0a0b-f6f4-4c63-8ce8-6ee6766e791f/9fcf84f4-191c-4d72-8cc3-f7c5dd77735c"
-					(reference "#PWR04809")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 172.72 80.01 90)
 		(unit 1)
@@ -5600,6 +5298,73 @@
 			(project "EPS_CORE"
 				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
 					(reference "R1204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 171.45 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b927d5c3-ed66-4793-95c2-d721279d2937")
+		(property "Reference" "R1210"
+			(at 171.45 66.802 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 171.45 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6e5f7bf-e3a0-45fc-95ed-87185cbcca35")
+		)
+		(pin "2"
+			(uuid "117afc76-ef30-4ae7-aa47-b1d0f64f0831")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
+					(reference "R1210")
 					(unit 1)
 				)
 			)
@@ -5747,86 +5512,6 @@
 			(project "EPS_CORE"
 				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
 					(reference "R1202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 148.59 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e20b13ee-e6f0-4226-9fea-6515b56b9714")
-		(property "Reference" "#PWR0339"
-			(at 148.59 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 148.59 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be8bd497-8374-46cc-a184-e433a9eba694")
-		)
-		(instances
-			(project "EPS_CORE"
-				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR0339")
-					(unit 1)
-				)
-			)
-			(project "EPS"
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/1b55637f-38d8-4875-b10a-e14f6143e237"
-					(reference "#PWR04606")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR04906")
-					(unit 1)
-				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/c37f0a0b-f6f4-4c63-8ce8-6ee6766e791f/9fcf84f4-191c-4d72-8cc3-f7c5dd77735c"
-					(reference "#PWR04806")
 					(unit 1)
 				)
 			)
@@ -6227,17 +5912,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 143.51 67.31 0)
+		(lib_id "Device:R_Small")
+		(at 151.13 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efba4b86-61c3-41b9-866b-4f9435ee00b1")
-		(property "Reference" "#PWR0340"
-			(at 143.51 71.12 0)
+		(uuid "fcb68436-761c-4bb2-8687-7fb0bfc336a6")
+		(property "Reference" "R1209"
+			(at 151.13 66.802 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 151.13 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,16 +5945,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 143.51 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 67.31 0)
+		(property "Datasheet" "~"
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,17 +5954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 143.51 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 143.51 67.31 0)
+		(property "Description" "Resistor, small symbol"
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,26 +5964,149 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b319f15-431c-4807-8e5d-a4b887822055")
+			(uuid "fb195941-ed09-490d-b103-f608cbfa7aa8")
+		)
+		(pin "2"
+			(uuid "d6276923-8f10-4854-bb76-210120839eea")
 		)
 		(instances
 			(project "EPS_CORE"
 				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR0340")
+					(reference "R1209")
 					(unit 1)
 				)
 			)
-			(project "EPS"
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/1b55637f-38d8-4875-b10a-e14f6143e237"
-					(reference "#PWR04602")
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 172.72 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe1de505-fc3e-451a-ab24-5754069f33d4")
+		(property "Reference" "R1205"
+			(at 172.72 69.342 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 172.72 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 172.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 172.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6db8e68c-376f-43ef-9409-7388ccd58f39")
+		)
+		(pin "2"
+			(uuid "bc036f39-6dc6-496d-bceb-838ff6b243bc")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
+					(reference "R1205")
 					(unit 1)
 				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/e2300d22-0306-42fd-876b-2f1727e327de"
-					(reference "#PWR04902")
-					(unit 1)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 149.86 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe43b860-a172-41e7-b116-9657875159e8")
+		(property "Reference" "R1207"
+			(at 149.86 69.342 90)
+			(effects
+				(font
+					(size 1.016 1.016)
 				)
-				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/c37f0a0b-f6f4-4c63-8ce8-6ee6766e791f/9fcf84f4-191c-4d72-8cc3-f7c5dd77735c"
-					(reference "#PWR04802")
+			)
+		)
+		(property "Value" "0"
+			(at 149.86 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b12a12eb-3b14-45b5-93a2-23ba96d30f37")
+		)
+		(pin "2"
+			(uuid "5a189569-ef1e-4f15-866d-c3c7e6f71340")
+		)
+		(instances
+			(project "EPS_CORE"
+				(path "/43e5e7c8-e7e0-4528-9a3e-b1557849918d/e2300d22-0306-42fd-876b-2f1727e327de"
+					(reference "R1207")
 					(unit 1)
 				)
 			)

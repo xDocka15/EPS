@@ -1,0 +1,216 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "G125-MH11605L1P"
+   (description "Gecko Latch: 8+8 Pos Plug DIL Right-Angle 3.2mm THT Connector Latch THT Hold-Down")
+   (family "CON")
+   (package "G125-MH11605L1P")
+   (attribute "Datasheet Link" "https://content.harwin.com/m/844b40397efd33c6/original/DRG-00172-Technical-Drawing-Datasheet-G125-MHXXX05L1P-pdf.pdf")
+   (attribute "Geometry.Height" "5.55mm")
+   (attribute "Mouser Part Number" "855-G125-MH11605L1P")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/G125-MH11605L1P?qs=kxSDgj%2F7uumIzP69oO%252BoMQ%3D%3D")
+   (attribute "Manufacturer_Name" "Harwin")
+   (attribute "Manufacturer_Part_Number" "G125-MH11605L1P")
+   (gate
+    (symbol "G125-MH11605L1P")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+    (pin "7" 7 PS)
+    (pin "8" 8 PS)
+    (pin "9" 9 PS)
+    (pin "10" 10 PS)
+    (pin "11" 11 PS)
+    (pin "12" 12 PS)
+    (pin "13" 13 PS)
+    (pin "14" 14 PS)
+    (pin "15" 15 PS)
+    (pin "16" 16 PS)
+   )
+  )
+  (symbol "G125-MH11605L1P"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -800) (pt 200 -800) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 900 -700) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "G125-MH11605L1P"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -11.525 0)
+      (pt 2.775 0)
+      (pt 2.775 -6.2)
+      (pt -11.525 -6.2)
+      (pt -11.525 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2.775 0)
+      (pt 2.775 -6.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2.775 -6.2)
+      (pt -11.525 -6.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -11.525 -6.2)
+      (pt -11.525 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 0.7 0.6) (pt 0.8 0.6)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -12.725 1.7)
+      (pt 3.975 1.7)
+      (pt 3.975 -7.4)
+      (pt -12.725 -7.4)
+      (pt -12.725 1.7))))
+   (leg 1 (pt 0 0) (padstack 0))
+   (leg 2 (pt -1.25 0) (padstack 0))
+   (leg 3 (pt -2.5 0) (padstack 0))
+   (leg 4 (pt -3.75 0) (padstack 0))
+   (leg 5 (pt -5 0) (padstack 0))
+   (leg 6 (pt -6.25 0) (padstack 0))
+   (leg 7 (pt -7.5 0) (padstack 0))
+   (leg 8 (pt -8.75 0) (padstack 0))
+   (leg 9 (pt 0 -1.25) (padstack 0))
+   (leg 10 (pt -1.25 -1.25) (padstack 0))
+   (leg 11 (pt -2.5 -1.25) (padstack 0))
+   (leg 12 (pt -3.75 -1.25) (padstack 0))
+   (leg 13 (pt -5 -1.25) (padstack 0))
+   (leg 14 (pt -6.25 -1.25) (padstack 0))
+   (leg 15 (pt -7.5 -1.25) (padstack 0))
+   (leg 16 (pt -8.75 -1.25) (padstack 0))
+   (leg 17 (pt 2 -3.45) (padstack 17))
+   (leg 18 (pt -10.75 -3.45) (padstack 18))
+   (padstack 0
+    (hole 0.6)
+    (plated true)
+    (pad (layer TCOP) (round 1.1))
+    (pad (layer INNER) (round 1.1))
+    (pad (layer BCOP) (round 1.1))
+   )
+   (padstack 17
+    (hole 1.9)
+    (plated false)
+    (pad (layer TCOP) (round 0.95))
+    (pad (layer INNER) (round 0.95))
+    (pad (layer BCOP) (round 0.95))
+   )
+   (padstack 18
+    (hole 1.9)
+    (plated false)
+    (pad (layer TCOP) (round 0.95))
+    (pad (layer INNER) (round 0.95))
+    (pad (layer BCOP) (round 0.95))
+   )
+   (model "G125-MH11605L1P.stp"
+    (euler 0 0 180)
+    (offset -4.375 -3.1500000953674316 2.8499999046325684)
+   )
+  )
+ )
+)
