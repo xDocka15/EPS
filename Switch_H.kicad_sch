@@ -2473,7 +2473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "017fcf14-bb96-4054-8d18-74baf8a8dc15")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0411"
 			(at 191.77 76.2 0)
 			(effects
 				(font
@@ -2579,6 +2579,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "#PWR01302")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01602")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0802")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02002")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02402")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01202")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0402")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2591,7 +2629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dff3bd4-10ae-4a9b-aaf9-09c5f4a61d90")
-		(property "Reference" "#FLG0102"
+		(property "Reference" "#FLG0402"
 			(at 139.7 108.585 0)
 			(effects
 				(font
@@ -2697,6 +2735,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "#FLG0302")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "#FLG01302")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG01602")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG0802")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG02002")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG02402")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG01202")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG0402")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2709,7 +2785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16fbdb04-ab76-41ff-9075-d78b19991253")
-		(property "Reference" "#FLG0101"
+		(property "Reference" "#FLG0401"
 			(at 139.7 61.595 0)
 			(effects
 				(font
@@ -2815,6 +2891,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "#FLG0301")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "#FLG01301")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG01601")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG0801")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG02001")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG02401")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG01201")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#FLG0401")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2826,7 +2940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20619df1-fd6e-4cbb-aa16-19b1d9d7708d")
-		(property "Reference" "R201"
+		(property "Reference" "R401"
 			(at 87.63 118.11 0)
 			(effects
 				(font
@@ -2963,6 +3077,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "R301")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "R1301")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "R1601")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "R801")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "R2001")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "R2401")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "R1201")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "R401")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2975,7 +3127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "298e8d3f-97ca-47fa-86c9-36e0d1767577")
-		(property "Reference" "Q201"
+		(property "Reference" "Q401"
 			(at 173.99 59.69 90)
 			(effects
 				(font
@@ -3141,6 +3293,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "Q301")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "Q1301")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q1601")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q801")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q2001")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q2401")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q1201")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q401")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3153,7 +3343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3024ecfd-71ee-40ea-b35f-2d2134c45527")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0401"
 			(at 86.36 128.27 0)
 			(effects
 				(font
@@ -3259,6 +3449,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "#PWR0306")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "#PWR01306")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01606")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0806")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02006")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02406")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01206")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0406")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3271,7 +3499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "461d7bc9-3b32-46ea-8982-aa6f7cf9809d")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0408"
 			(at 173.99 97.79 0)
 			(effects
 				(font
@@ -3377,6 +3605,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "#PWR01303")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01603")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0803")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02003")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02403")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01203")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0403")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3389,7 +3655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d5c94c0-581d-4e65-9999-cb5be28c9332")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0409"
 			(at 173.99 144.78 0)
 			(effects
 				(font
@@ -3495,6 +3761,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "#PWR01308")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01608")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0808")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02008")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02408")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01208")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0408")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3507,7 +3811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5af4de3d-b57d-4f5a-a25b-84b9ac8ce91d")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0404"
 			(at 148.59 76.2 0)
 			(effects
 				(font
@@ -3613,6 +3917,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "#PWR01301")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01601")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0801")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02001")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02401")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01201")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0401")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3625,7 +3967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "622fa7a1-f1d9-44ef-a690-7371310da494")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0414"
 			(at 191.77 123.19 0)
 			(effects
 				(font
@@ -3731,6 +4073,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "#PWR01305")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01605")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0805")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02005")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02405")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01205")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0405")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3743,7 +4123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71fe5607-324f-46de-84ec-014c7f39b16c")
-		(property "Reference" "U202"
+		(property "Reference" "U403"
 			(at 185.42 126.9999 0)
 			(effects
 				(font
@@ -3892,6 +4272,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "U302")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "U1302")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U1602")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U802")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U2002")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U2402")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U1202")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U402")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3904,7 +4322,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74335289-b6a9-43e7-9e86-ba87b22c7a20")
-		(property "Reference" "C204"
+		(property "Reference" "C403"
 			(at 146.05 113.0362 0)
 			(effects
 				(font
@@ -4041,6 +4459,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "C304")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "C1304")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1604")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C804")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2004")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2404")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1204")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C404")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4053,7 +4509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "810e24bd-8537-4f6d-83ef-fab1a72fbc5c")
-		(property "Reference" "C203"
+		(property "Reference" "C405"
 			(at 157.48 76.2062 0)
 			(effects
 				(font
@@ -4190,6 +4646,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "C303")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "C1303")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1603")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C803")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2003")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2403")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1203")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C403")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4202,7 +4696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9330d7fc-e868-432d-993f-67141d04d40e")
-		(property "Reference" "C201"
+		(property "Reference" "C402"
 			(at 146.05 66.0462 0)
 			(effects
 				(font
@@ -4339,6 +4833,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "C301")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "C1301")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1601")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C801")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2001")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2401")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1201")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C401")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4351,7 +4883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "952bd92a-5666-4319-b930-565330f43d9f")
-		(property "Reference" "C202"
+		(property "Reference" "C410"
 			(at 189.23 66.0462 0)
 			(effects
 				(font
@@ -4488,6 +5020,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "C302")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "C1302")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1602")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C802")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2002")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2402")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1202")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C402")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4500,7 +5070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ba69fa-0b1e-482c-9985-f34363711fc8")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0405"
 			(at 148.59 123.19 0)
 			(effects
 				(font
@@ -4606,6 +5176,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "#PWR01304")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01604")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0804")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02004")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02404")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01204")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0404")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4618,7 +5226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab039c89-9241-4ed1-9105-f8f586e8ac8a")
-		(property "Reference" "C205"
+		(property "Reference" "C412"
 			(at 189.23 113.0362 0)
 			(effects
 				(font
@@ -4755,6 +5363,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "C305")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "C1305")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1605")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C805")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2005")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2405")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1205")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C405")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4767,7 +5413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5475907-6725-4db1-bafc-54c9f719be67")
-		(property "Reference" "Q202"
+		(property "Reference" "Q404"
 			(at 173.99 106.68 90)
 			(effects
 				(font
@@ -4933,6 +5579,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "Q302")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "Q1302")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q1602")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q802")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q2002")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q2402")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q1202")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "Q402")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4945,7 +5629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c93c88e9-e489-4e59-ac9c-8ede2d6688cb")
-		(property "Reference" "U201"
+		(property "Reference" "U402"
 			(at 185.42 80.0099 0)
 			(effects
 				(font
@@ -5094,6 +5778,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "U301")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "U1301")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U1601")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U801")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U2001")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U2401")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U1201")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "U401")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5106,7 +5828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d29f4687-d299-4fd9-9c1f-f71c0d306e5b")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0402"
 			(at 86.36 128.27 0)
 			(effects
 				(font
@@ -5212,6 +5934,44 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "#PWR01307")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01607")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0807")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02007")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR02407")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR01207")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "#PWR0407")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5224,7 +5984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e36dc358-a79d-49d6-ae41-5d8fb1229027")
-		(property "Reference" "C206"
+		(property "Reference" "C408"
 			(at 157.48 123.1962 0)
 			(effects
 				(font
@@ -5358,6 +6118,44 @@
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/c37f0a0b-f6f4-4c63-8ce8-6ee6766e791f/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
 					(reference "C408")
+					(unit 1)
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(reference "C306")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/3c9749a3-f6fa-4df4-a819-44df79a0f629"
+					(reference "C1306")
+					(unit 1)
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1606")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C806")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2006")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C2406")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C1206")
+					(unit 1)
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -5529,6 +6327,31 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/f14e2ccd-368c-4564-a2f9-aaa88b448b60/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
 					(page "#")
+				)
+			)
+			(project "EPS_PV_INPUT"
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/9d09256a-b1cf-431e-ac15-ed14acab8c88/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(page "5")
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/4313468d-8f4f-4bdc-8385-889814f4cee5/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(page "9")
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/6d13a628-cc69-4882-8d71-6117aca3a662/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(page "13")
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/41c5534f-fcb2-4ec3-adc7-992b7bee1600/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(page "17")
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/52873e6b-e08e-4161-9ef2-2b4737346b9b/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(page "21")
+				)
+				(path "/f6d08a6b-0e1f-4524-a951-788f0019f863/65753da0-d365-4e1b-a747-1fe94f193180/50b5827b-91e2-4f95-b489-8fc588047e5c"
+					(page "25")
+				)
+			)
+			(project "EPS_BATTERY_PACK"
+				(path "/9b92686c-6ea5-484e-b79a-0383868a2def/41997ee6-fe7d-4257-91cc-69e8fbc1fd10"
+					(page "4")
 				)
 			)
 		)

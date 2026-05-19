@@ -1752,6 +1752,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 88.9) (xy 36.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515aa4e1-7496-4b99-b96c-77a2f6dc73c2")
+	)
+	(wire
+		(pts
 			(xy 182.88 118.11) (xy 182.88 121.92)
 		)
 		(stroke
@@ -1989,6 +1999,16 @@
 			(type default)
 		)
 		(uuid "84f9db55-5ced-43bc-b17d-4e428985dc94")
+	)
+	(wire
+		(pts
+			(xy 44.45 88.9) (xy 43.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85bae157-22f8-4794-9008-eaaf54f7540a")
 	)
 	(wire
 		(pts
@@ -3526,6 +3546,17 @@
 		)
 		(uuid "83a3be45-0434-4a4e-b55e-2e916c5cf21d")
 	)
+	(hierarchical_label "EN_1"
+		(shape input)
+		(at 36.83 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89f2ed6b-cc0a-4266-94f1-34ec71760c0e")
+	)
 	(hierarchical_label "EN_2"
 		(shape input)
 		(at 67.31 116.84 180)
@@ -3591,6 +3622,17 @@
 			(justify left)
 		)
 		(uuid "ea50d3a2-8a7b-4053-8aed-bee5b08ee087")
+	)
+	(hierarchical_label "EN_2"
+		(shape input)
+		(at 44.45 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f058267a-2436-4d27-8267-225c318fe7bb")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -3684,6 +3726,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "R4509")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R607")
 					(unit 1)
 				)
 			)
@@ -3784,6 +3832,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R602")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3878,6 +3932,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "R4506")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R612")
 					(unit 1)
 				)
 			)
@@ -3978,6 +4038,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "C607")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4075,6 +4141,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "C604")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4137,6 +4209,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04524")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
@@ -4234,6 +4312,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "C4508")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "C606")
 					(unit 1)
 				)
 			)
@@ -4456,6 +4540,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "IC601")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4550,6 +4640,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "R4515")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R606")
 					(unit 1)
 				)
 			)
@@ -4650,6 +4746,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R609")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4713,6 +4815,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04516")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
@@ -4813,6 +4921,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R615")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4907,6 +5021,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "C4504")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "C605")
 					(unit 1)
 				)
 			)
@@ -5005,6 +5125,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R601")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5071,6 +5197,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0610")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5134,6 +5266,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04508")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0611")
 					(unit 1)
 				)
 			)
@@ -5231,6 +5369,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "C4506")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "C602")
 					(unit 1)
 				)
 			)
@@ -5453,6 +5597,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "IC602")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5547,6 +5697,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "R4511")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R608")
 					(unit 1)
 				)
 			)
@@ -5647,6 +5803,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R605")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5710,6 +5872,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04506")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -5810,6 +5978,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R611")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5907,6 +6081,79 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 40.64 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "7cd301d2-84b6-4200-923a-78c7889cf103")
+		(property "Reference" "R107"
+			(at 40.64 87.122 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 40.64 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2472943-a4fa-4a00-8229-a87bac7b93e4")
+		)
+		(pin "2"
+			(uuid "59f796c9-777a-4fc7-af82-b072767ea0ae")
+		)
+		(instances
+			(project "EPS"
+				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R107")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5970,6 +6217,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04512")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
@@ -6070,6 +6323,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "C608")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6133,6 +6392,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04520")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -6233,6 +6498,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R613")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6296,6 +6567,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04518")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0616")
 					(unit 1)
 				)
 			)
@@ -6365,6 +6642,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0609")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6428,6 +6711,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04529")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0620")
 					(unit 1)
 				)
 			)
@@ -6497,6 +6786,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0617")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6563,6 +6858,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0615")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6626,6 +6927,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04511")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0614")
 					(unit 1)
 				)
 			)
@@ -6726,6 +7033,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R603")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6823,6 +7136,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R618")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6889,6 +7208,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0604")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6952,6 +7277,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04527")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0619")
 					(unit 1)
 				)
 			)
@@ -7049,6 +7380,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "R4508")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R614")
 					(unit 1)
 				)
 			)
@@ -7178,6 +7515,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "Q601")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7275,6 +7618,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "C601")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7369,6 +7718,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "R4512")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R617")
 					(unit 1)
 				)
 			)
@@ -7498,6 +7853,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "Q602")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7595,6 +7956,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "C603")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7661,6 +8028,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0607")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7724,6 +8097,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04504")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0613")
 					(unit 1)
 				)
 			)
@@ -7824,6 +8203,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R616")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7890,6 +8275,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0612")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7952,6 +8343,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04525")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0618")
 					(unit 1)
 				)
 			)
@@ -8050,6 +8447,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "R610")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8113,6 +8516,12 @@
 			(project "EPS"
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/2939b268-15b7-411b-af55-ccc6daa126bc/de7fc528-e990-41c1-895c-f423d7320cf5"
 					(reference "#PWR04502")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/de7fc528-e990-41c1-895c-f423d7320cf5"
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)

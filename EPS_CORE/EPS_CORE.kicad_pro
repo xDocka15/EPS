@@ -509,7 +509,7 @@
         "microvia_drill": 0.1,
         "name": "ANALOG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -525,8 +525,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "BUS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "pcb_color": "rgb(255, 0, 11)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -543,7 +543,7 @@
         "microvia_drill": 0.1,
         "name": "CAN",
         "pcb_color": "rgb(195, 4, 191)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(195, 4, 191)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -560,7 +560,7 @@
         "microvia_drill": 0.1,
         "name": "Channel",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.6,
@@ -576,9 +576,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "DIGITAL",
-        "pcb_color": "rgb(255, 174, 17)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 170, 29)",
+        "priority": 6,
+        "schematic_color": "rgb(255, 170, 29)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -594,7 +594,7 @@
         "microvia_drill": 0.1,
         "name": "ENABLES",
         "pcb_color": "rgb(230, 229, 38)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(230, 229, 38)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -611,7 +611,7 @@
         "microvia_drill": 0.1,
         "name": "I2C",
         "pcb_color": "rgb(10, 243, 255)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(10, 243, 255)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -620,11 +620,20 @@
       },
       {
         "bus_width": 12,
+        "line_style": 0,
+        "name": "SOLAR",
+        "pcb_color": "rgb(148, 126, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(148, 126, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.2,
         "line_style": 0,
         "name": "SPI",
         "pcb_color": "rgb(27, 255, 167)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(27, 255, 167)",
         "track_width": 0.2,
         "wire_width": 6
@@ -639,7 +648,7 @@
         "microvia_drill": 0.1,
         "name": "UART",
         "pcb_color": "rgb(5, 199, 0)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(5, 199, 0)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -1113,6 +1122,14 @@
       {
         "netclass": "UART",
         "pattern": "*RX*"
+      },
+      {
+        "netclass": "SOLAR",
+        "pattern": "*SOL*"
+      },
+      {
+        "netclass": "SOLAR",
+        "pattern": "*MPPT*"
       }
     ]
   },
@@ -1124,7 +1141,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "EPS_CORE.step",
       "svg": "",
       "vrml": ""
     },
@@ -1307,6 +1324,10 @@
     [
       "d84c99d9-a3a0-4961-9c9f-c16045655e4a",
       "Switch_Element"
+    ],
+    [
+      "74b21890-fa95-494f-9b4d-47d849847bec",
+      "EPS_PC104"
     ],
     [
       "136d551b-dd5b-42cc-aebd-902cdeeb5d77",

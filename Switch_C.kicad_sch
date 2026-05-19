@@ -629,7 +629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01b62e68-a5b7-43d9-a4ae-8a4b95031180")
-		(property "Reference" "R501"
+		(property "Reference" "R3601"
 			(at 96.52 121.92 0)
 			(effects
 				(font
@@ -762,6 +762,20 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/40e3cf3e-b706-4a83-ae9b-eb59be341dee"
+					(reference "R1101")
+					(unit 1)
+				)
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/43e909f3-a7d1-4780-9c07-6818bd86e850"
+					(reference "R701")
+					(unit 1)
+				)
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/d50b9098-1e1b-4a02-ab50-f7d96145dfa1"
+					(reference "R901")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -773,7 +787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15623705-a713-4518-ab7a-cb06a5c85d70")
-		(property "Reference" "R502"
+		(property "Reference" "R3602"
 			(at 105.41 121.92 0)
 			(effects
 				(font
@@ -906,6 +920,20 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/40e3cf3e-b706-4a83-ae9b-eb59be341dee"
+					(reference "R1102")
+					(unit 1)
+				)
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/43e909f3-a7d1-4780-9c07-6818bd86e850"
+					(reference "R702")
+					(unit 1)
+				)
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/d50b9098-1e1b-4a02-ab50-f7d96145dfa1"
+					(reference "R902")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -918,7 +946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a192535-97ef-4c80-bf1d-61b8e19b5ec2")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR03601"
 			(at 95.25 132.08 0)
 			(effects
 				(font
@@ -1020,6 +1048,20 @@
 					(unit 1)
 				)
 			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/40e3cf3e-b706-4a83-ae9b-eb59be341dee"
+					(reference "#PWR01101")
+					(unit 1)
+				)
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/43e909f3-a7d1-4780-9c07-6818bd86e850"
+					(reference "#PWR0701")
+					(unit 1)
+				)
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/d50b9098-1e1b-4a02-ab50-f7d96145dfa1"
+					(reference "#PWR0901")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1032,7 +1074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f506b4bc-1a8f-4a0f-b49a-0385e4000b09")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR03602"
 			(at 104.14 132.08 0)
 			(effects
 				(font
@@ -1131,6 +1173,20 @@
 				)
 				(path "/94201994-47b8-4213-8d1a-05da12b2a7b0/447ec425-294e-4947-a7f3-941020b4706e/b6772c72-3c76-48c5-a75b-fb14179eeb30"
 					(reference "#PWR05802")
+					(unit 1)
+				)
+			)
+			(project "EPS_OUTPUT_CHANNELS"
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/40e3cf3e-b706-4a83-ae9b-eb59be341dee"
+					(reference "#PWR01102")
+					(unit 1)
+				)
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/43e909f3-a7d1-4780-9c07-6818bd86e850"
+					(reference "#PWR0702")
+					(unit 1)
+				)
+				(path "/c9173887-04ec-4c2a-a5a4-b6a694df57d5/d50b9098-1e1b-4a02-ab50-f7d96145dfa1"
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
