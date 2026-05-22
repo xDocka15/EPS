@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -226,7 +226,7 @@
         },
         {
           "diameter": 0.5,
-          "drill": 0.2
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": true
@@ -1231,10 +1231,6 @@
       "DCDC_7"
     ],
     [
-      "de7fc528-e990-41c1-895c-f423d7320cf5",
-      "Universal_switch"
-    ],
-    [
       "43e909f3-a7d1-4780-9c07-6818bd86e850",
       "Switch_CH_1"
     ],
@@ -1259,12 +1255,8 @@
       "Switch_Element"
     ],
     [
-      "3c9749a3-f6fa-4df4-a819-44df79a0f629",
-      "Switch_CH_7"
-    ],
-    [
-      "59e333ca-3e28-4c4d-a00b-6aa77b55a257",
-      "Switch_Element"
+      "de7fc528-e990-41c1-895c-f423d7320cf5",
+      "Universal_switch"
     ],
     [
       "a13b3f6b-9de9-421b-abab-aef62fcea990",
@@ -1281,6 +1273,14 @@
     [
       "544fbc8e-c1c2-4d03-8c38-2510c623901a",
       "AMEAS_7"
+    ],
+    [
+      "3c9749a3-f6fa-4df4-a819-44df79a0f629",
+      "Switch_CH_7"
+    ],
+    [
+      "59e333ca-3e28-4c4d-a00b-6aa77b55a257",
+      "Switch_Element"
     ]
   ],
   "text_variables": {}
